@@ -1,0 +1,51 @@
+repository: gf-dcc/info-website
+imgbaseurl: 'https://grayfoundation.imgix.net/'
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - src/js
+  - README.md
+  - package.json
+  - webpack.dev.js
+  - webpack.prod.js
+  - yarn.lock
+permalink: pretty
+title: 'Gray BRCA Pre-Cancer Atlas'
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+  data-cards:
+    output: false
+  publications: 
+    output: true
+  projects: 
+    output: false
+  people:
+    output: false
+  graphics:
+    output: false
+  redirects:
+    output: true
+    permalink: /:name
+
+defaults:
+  - scope:
+      path: ''
+      type: publications
+    values:
+      section_id: publications
+      layout: summary
+      heading: Publications
+      sub_heading: Publication Summary
+      wide_container: false
+
+sass:
+  sass_dir: src/_sass
+  style: compact # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from

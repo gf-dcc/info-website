@@ -1,0 +1,84 @@
+<div class="project-listing">
+    <h2 class="project-listing__title">{{ include.content.title }}</h2>
+    {%- if include.content.project_lead -%}
+        <div class="project-listing__meta-item">
+            <span class="project-listing__meta-label">Project Lead:</span>
+            <span class="project-listing__meta-value">
+                {{ include.content.project_lead }}
+            </span>
+        </div>
+    {%- endif -%}
+    {%- if include.content.team -%}
+        <div class="project-listing__meta-item">
+            <span class="project-listing__meta-label">Team:</span>
+            <span class="project-listing__meta-value">
+                {{ include.content.team }}
+            </span>
+        </div>
+    {%- endif -%}
+    {%- if include.content.research_questions -%}
+        <div class="project-listing__questions">
+            <h4>Research Questions:</h4>
+            <ul class="project-listing__questions-list">
+                {%- for item in include.content.research_questions -%}
+                    <li class="project-listing__questions-item">
+                        {{ item }}
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+    {%- endif -%}
+
+    <div class="project-listing__description">
+        {{ include.content }}
+    </div>
+
+    {%- if include.content.related_publications -%}
+        <h4 class="project-listing__publications-heading">Related Publications</h4>
+    {%- endif -%}
+    
+    {%- if include.content.graphics and include.content.related_publications -%}
+        <div class="project-listing__columns">
+    {%- endif -%}
+
+        {%- if include.content.graphics -%}
+            <div class="project-listing__thumbs">
+                {% assign imgCounter = 0 %}
+                {%- for item in include.content.graphics -%}
+
+                    {% assign imgCounter = imgCounter | plus: 1 %}
+                    {% assign imgId = 'img' | append: include.counter | append: imgCounter %}
+
+                    <div class="project-listing__thumb">
+                        <a href="#{{ imgId }}" data-lity>
+
+                            {% include graphic-thumb.html content=item %}
+                            
+                            <span class="project-listing__thumb-label">Click to Enlarge</span>
+                        </a>
+                        <div id="{{ imgId }}" class="lity-hide modal">
+                                
+                            {% include graphic.html content=item %}
+                            
+                        </div>
+                    </div>
+                    
+                {%- endfor -%}
+            </div>
+        {%- endif -%}
+
+        {%- if include.content.related_publications -%}
+            <ul class="project-listing__publications">
+                {%- for item in include.content.related_publications -%}
+                    <li class="project-listing__publication">
+                        {{ item }}
+                    </li>
+                {%- endfor -%}
+            </ul>
+        {%- endif -%}
+            
+    {%- if include.content.graphics and include.content.related_publications -%}
+        </div>
+    {%- endif -%}
+
+</div>

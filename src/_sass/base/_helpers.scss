@@ -1,0 +1,139 @@
+
+// ----------------------------------------------------------------------------
+// Helper classes
+// ----------------------------------------------------------------------------
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.is-hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.is-visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.is-visuallyhidden.focusable:active,
+.is-visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.is-invisible {
+    visibility: hidden;
+}
+
+.is-opaque {
+    opacity:1 !important;
+}
+
+/*
+ * Prevent scrolling - typically used on body and/or html in conjunction with modal reveal
+ */
+.no-scroll {
+    height:100%;
+    overflow: hidden!important;
+}
+
+
+/*
+*/
+.anchor {
+    display:block;
+    position:relative;
+    top:(-$header_height_mobile - 20px);
+
+    @include breakpoint(desktop) {
+        top:(-$header_height_desktop - 20px);
+    }
+}
+[id] {
+    scroll-margin-top: $header_height_mobile;
+    @include breakpoint(desktop) {
+        scroll-margin-top: $header_height_tablet;
+    }
+    @include breakpoint(desktop-xxl) {
+        scroll-margin-top: $header_height_desktop;
+    }
+}
+
+
+.publications [id],
+.software [id] {
+    scroll-margin-top: calc(#{$header_height_mobile} + 20px);
+    @include breakpoint(desktop) {
+        scroll-margin-top: calc(#{$header_height_tablet} + 40px);
+    }
+    @include breakpoint(desktop-xxl) {
+        scroll-margin-top: calc(#{$header_height_desktop} + 40px);
+    }
+}
+
+  
+/*
+ * Containers
+ */
+
+.container {
+    @extend %container;
+}
+.container-narrow {
+    @extend %container-narrow;
+}
+.container-wide {
+    @extend %container-wide;
+}
+
+/*
+ * Image Alignment
+ */
+
+.float-half-right,
+.float-half-left {
+    margin-bottom: .5em;
+}
+
+@include breakpoint(tablet-v) {
+    .float-half-right {
+        float: right;
+        max-width: 48%;
+        margin-left: 4%;
+    }
+    .float-half-left {
+        float: left;
+        max-width: 48%;
+        margin-right: 4%;
+    }
+}
+
+.inline {
+    display: inline;
+}

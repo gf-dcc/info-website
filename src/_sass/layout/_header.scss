@@ -1,0 +1,114 @@
+//-------------------------------------------------------------------
+// Site Header
+//-------------------------------------------------------------------
+.site-header {
+    position:fixed;
+    background:$color_dark-blue-gray;
+    z-index:$index_header;
+    width:100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.site-header__inner {
+    height:$header_height_mobile;
+    display:flex;
+    justify-content:space-between;
+    // transition:all 0.2s $ease-out-quad;
+
+    @include breakpoint(desktop) {
+        overflow:visible;
+        height:$header_height_tablet;
+        justify-content:flex-start;
+    }
+    @include breakpoint(desktop-xxl) {
+        height:$header_height_desktop;     
+    }
+}
+
+// Branding ---------------------------------------------------------
+
+
+
+.site-header__branding {
+    background-size:contain;
+    background-repeat: no-repeat;
+    // transition:width 0.2s $ease-out-quad, height 0.2s $ease-out-quad, margin 0.2s $ease-out-quad;
+}
+
+// MODIFIER - Identify primary-level branding
+.site-header__branding--primary {
+    @extend %heading-style-branding;
+    margin-top:14px;
+    display:block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color_white;
+    // transition:padding 0.2s $ease-out-quad, color 0.2s $ease-out-quad;
+
+    &:hover {
+        color:$color_light-gray;
+    }
+
+    @include breakpoint(desktop) {
+        margin-top:20px;
+        margin-bottom:3px;
+    }
+    @include breakpoint(desktop-xxl) {
+        margin-top:70px;
+        margin-bottom:1px;
+    }
+}
+
+// MODIFIER - Indentify secondary-level branding
+.site-header__branding--secondary {
+    width:100px;
+    height: 53px;
+    margin-top:26px;
+    text-indent:-9999px;
+    background-image:url('../img/logo-gray_white@2x.png');
+    display:none;
+
+    @include breakpoint(desktop) {
+        display:block;
+    }
+    @include breakpoint(desktop-xxl) {
+        margin-top:76px;
+    }
+}
+// MODIFIER - Flag for mobile-specific branding elements
+.site-header__branding--mobile {
+    @include breakpoint(desktop) {
+        display:none;
+    }
+}
+
+
+// ------------------------------------------------------------------
+// Mobile nav men (top level items) / Hamburger menu
+// ------------------------------------------------------------------
+
+.site-header__menu-icon {
+    margin-left:auto;
+    @include breakpoint(desktop) {
+        display:none;
+    }
+    @include breakpoint(desktop) {
+        display:none;
+    }
+}
+
+.site-header__menu-icon-link {
+    position: relative;
+    display: block;
+    background:url('../img/icon-mobile-menu.svg') left center no-repeat;
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    text-align: center;
+    border:none;
+
+    &:hover {
+        border:none;
+    }
+
+}

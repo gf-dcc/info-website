@@ -1,0 +1,20 @@
+---
+layout: secondary
+---
+
+<section class="projects">
+    <div class="projects__inner">
+        <h1 class="projects__heading">Projects</h1>
+
+        {{ content }}
+
+        {% assign projects = site.projects | sort: 'weight' %}
+        {% for project in projects %}
+
+            {% include project-listing.html content=project %}
+
+        {% endfor %}
+
+    </div>
+
+</section>

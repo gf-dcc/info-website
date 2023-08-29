@@ -1,0 +1,114 @@
+.project-listing {
+    padding-bottom:1.5em;
+    margin-bottom:2em;
+    border-bottom:2px solid #b3b6b7;
+
+    &:last-child {
+        border-bottom:none;
+    }
+}
+h2.project-listing__title {
+    @extend %heading-style-3;
+    color: $color_blue;
+    margin: 0;
+    line-height: 1.38;
+}
+.project-listing__meta-label {
+    @extend %heading-style-4;
+    text-transform: uppercase;
+    margin: 0;
+}
+.project-listing__meta-value {
+    @extend %text-style-4;
+}
+
+.project-listing__questions {
+    h4 {
+        margin-top:.75em;
+    }
+}
+.project-listing__questions-list {
+    margin-bottom:.75em;
+}
+.project-listing__questions-item {
+    @extend %text-style-4;
+}
+
+.project-listing__description {
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+.project-listing__publications-heading {
+    margin-top: .75em;
+}
+
+.project-listing__columns {
+    @include breakpoint(tablet-v) {
+        display:flex;
+        gap: 40px;
+    }
+
+    .project-listing__thumb {
+        @include breakpoint(tablet-v) {
+            margin-right:0;
+        }
+    }
+}
+
+
+// Images -----------------------------------------------------------
+
+.project-listing__thumbs {
+    margin-top: .5em;
+    margin-bottom:1em;
+    @include breakpoint(tablet-v) {
+        flex:0 0 200px;
+    }
+    @include breakpoint(desktop-l) {
+        flex:0 0 260px;
+    }
+}
+
+.project-listing__thumb {
+    margin-right:40px;
+    margin-bottom:40px;
+    display:inline-block;
+    text-align:center;
+    
+    img {
+        border:1px solid $color_medium-gray;
+    }
+
+    &:last-child {
+        margin-right:0;
+    }
+}
+.project-listing__thumb-label {
+    display:block;
+    text-transform:uppercase;
+    margin:.2em 0 1em;
+    @include font-size(14px);
+    
+    @include breakpoint(desktop) {
+        @include font-size(16px);
+    }
+}
+
+// Publications ----------------------------------------------------
+
+.project-listing__publications {
+    margin-top: .5em;
+    list-style: none;
+    margin: .5em 0 1em 0;
+    padding: 0;
+}
+.project-listing__publication {
+    margin-bottom: 1.25em;
+    line-height: 1.625;
+    @include font-size(14px);
+    
+    @include breakpoint(desktop) {
+        @include font-size(16px);
+    }
+}

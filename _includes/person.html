@@ -1,0 +1,26 @@
+<div class="person">
+    {%- if include.content.photo -%}
+        <div class="person__photo">
+            <img src="{{ site.imgbaseurl }}{{ include.content.photo }}?w=260&h=260&crop=top&fit=crop" alt="{{ include.content.name }} - photo">
+        </div>
+    {%- endif -%}
+    <div class="person__info">
+        <span class="person__name">{{ include.content.name }}</span>
+        <ul class="person__position-list">
+            {% for position in include.content.positions %}
+                <li class="person__position-item">{{ position }}</li>
+            {% endfor %}
+        </ul>
+        {%- if include.content.associations -%}
+            <ul class="person__associations-list">
+                {% for item in include.content.associations %}
+                    <li class="person__associations-item">{{ item | markdownify }}</li>
+                {% endfor %}
+            </ul>
+        {%- endif -%}
+        <div class="person__bio">
+            {{ include.content.content | markdownify }}
+        </div>
+    </div>
+
+</div>

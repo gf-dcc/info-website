@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<section class="hero">
+    <div class="hero__container">
+        <div class="hero__image">
+            <div class="hero__text-container">
+                <div class="hero__text">
+
+                    <h1>{{ page['hero text'] }}</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="secondary">
+    <div class="secondary__content-wrap {% if page.wide_container %}secondary__content-wrap--wide{% else %}secondary__content-wrap--standard{% endif %}">
+
+        <div class="body-text-sm">{{ content }}</div>
+
+        {% assign cards = site.data.announcements.publications_software %}
+        {% assign cta_url = 'publications' | relative_url %}
+        {% assign cta_label = 'View all publications' %}
+        {% assign cta_url2 = null %}
+        {% assign cta_label2 = null %}
+
+        {% include cards.html 
+            heading='Publications' 
+            cards=cards
+            card-type='news-card'
+            card-color='dark-blue'
+            cta-url=cta_url
+            cta-label=cta_label
+            cta-url2=cta_url2
+            cta-label2=cta_label2
+            extra-margins=true
+        %}
+
+
+        {% assign cta_url = 'data' | relative_url %}
+        {% assign cta_label = 'View all data' %}
+
+        {% include cards.html 
+            heading='Data' 
+            featured=true
+            cta-url=cta_url
+            cta-label=cta_label
+            extra-margins=true
+        %}
+
+    </div>
+</div>
+
+
