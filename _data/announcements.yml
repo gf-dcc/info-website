@@ -1,33 +1,17 @@
 publications_software:
-  - title: "Lymphocyte networks are dynamic cellular communities in the immunoregulatory landscape of lung adenocarcinoma."
-    author: "Gaglia et al."
-    year: 2023
-    publication: "Cancer Cell"
-    image: "publications/lymphocyte-networks-are-dynamic.jpg"
-    link: "publications#lymphocyte-networks-are-dynamic-cellular-communities-in-the-immunoregulatory-landscape-of-lung-adenocarcinoma"
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
-  - title: "Influence of melanoma type on incidence and downstream implications of cutaneous immune-related adverse events in the setting…"
-    author: "Nguyen et al."
-    year: 2023
-    publication: "J Am Acad Dermatol"
-    image: "publications/influence-of-melanoma-type.jpg"
-    link: "publications#influence-of-melanoma-type-on-incidence-and-downstream-implications-of-cutaneous-immune-related-adverse-events-in-the-setting"
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
-  - title: "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer."
-    author: "Lin, et al."
-    year: 2023
-    publication: "Cell"
-    image: "publications/multiplexed-3d-atlas-of-state.jpg"
-    link: "publications#multiplexed-3d-atlas-of-state-transitions-and-immune-interaction-in-colorectal-cancer"
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
   - title: "A human breast atlas integrating single-cell proteomics and transcriptomics."
     author: "Gray et al."
     year: 2022
     publication: "Dev Cell"
     image: "publications/a-human-breast-atlas-integrating.jpg"
     link: "publications#a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics"
+    label: Publication  # [Publication|Software|Method]
+    target: "_self"  # [_self|_blank]
+  - title: "H2Bub1 loss is an early contributor to clear cell ovarian cancer progression."
+    author: "Ferrari et al."
+    year: 2023
+    publication: "JCI Insight"
+    image: "publications/H2Bub1-loss-clear-cell-ovarian-cancer-progression.jpg"
+    link: "publications#H2Bub1-loss-is-an-early-contributor-to-clear-cell-ovarian-cancer-progression"
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]

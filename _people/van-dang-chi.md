@@ -7,6 +7,8 @@ positions:
 associations:
   - "[LinkedIn](https://www.linkedin.com/in/chi-van-dang-38ab0587/)"
 
+photo: people/van-dang-chi.png
+
 group: directors
 
 weight: 10
