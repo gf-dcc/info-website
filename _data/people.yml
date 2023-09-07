@@ -3,3 +3,5 @@ groups:
     name: Gray Foundation Research Team Project Leads
   - key: directors
     name: Scientific Directors
+  - key: dcc
+    name: Data Coordinating Center

@@ -11,11 +11,11 @@ main:
     section_id: publications
     url: "/publications"
     target: "_self"
-  - name: "Data"
-    section_id: data
-    url: "/data"
-    target: "_self"
   - name: "Projects"
     section_id: projects
     url: "/projects"
+    target: "_self"
+  - name: "Data"
+    section_id: data
+    url: "/data"
     target: "_self"
