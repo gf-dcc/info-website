@@ -7,7 +7,7 @@ layout: secondary
         <h1 class="people__heading">People</h1>
         {% for siteDataGroup in site.data.people.groups %}
             <div class="people__location">
-                <h2 class="people__location-name">{{ siteDataGroup.name }}</h2>
+                <h2 class="people__location-name" id="{{ siteDataGroup.id }}">{{ siteDataGroup.name }}</h2>
                 {% assign people = site.people | where: 'group', siteDataGroup.key | sort: 'weight' %}
                 {% for person in people %}
 

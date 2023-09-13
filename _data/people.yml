@@ -1,7 +1,10 @@
 groups:
   - key: principals
     name: Gray Foundation Research Team Project Leads
+    id: project-leads
   - key: directors
     name: Scientific Directors
+    id: scientific-directors
   - key: dcc
     name: Data Coordinating Center
+    id: data-coordinating-center
