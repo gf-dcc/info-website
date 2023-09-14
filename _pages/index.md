@@ -11,7 +11,7 @@ section_id: home
 layout: home
 ---
 
-# Harnessing Spatial Biology
+# ADVANCING CANCER RESEARCH
 
 The Gray Foundation seeks to transform treatment and prevention for BRCA1/2 mutation-associated cancers through innovative research and new profiling methods.
 

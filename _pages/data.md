@@ -8,24 +8,24 @@ layout: secondary
 
 # Data
 
-The mutations that cause cancer often arise spontaneously in somatic tissues but some are heritable. Among these mutations in BRCA1 or BRCA2 (BReast CAncer gene 1&2) stand out as having relatively high prevalence and causing a substantial increase in a variety of cancers including those of the breast, ovaries, pancreas and prostate. BRCA1 and BRCA2 are involved in the repair of damaged DNA but the precise events that initiate tumor formation are not fully understood. Data associated with the Gray project is maintained by Sage Bionetworks. The following repository link houses the data.
+All non-image data associated with the Gray Foundation BRCA Pre-cancer Atlas projects are maintained by Sage Bionetworks. To access the catalog of links to the primary data, visit the Sage Bionetworks Data Portal, below:
 
-<a href="https://portal-613w4c5vz-gray-foundation-dcc.vercel.app/explore" target="_blank" class="arrow-button">Data Portal</a>
+<a href="https://portal-613w4c5vz-gray-foundation-dcc.vercel.app/" target="_blank" class="arrow-button">Data Portal</a>
 
-To explore tissue images associated with these projects, Minerva stories are below.
-
-
+Tissue images associated with the Gray Foundation BRCA Pre-cancer Atlas projects can be viewed online via the software [Minerva](https://github.com/labsyspharm/minerva-story/wiki) and are catalogued below.
 
 
-## Data Explorations
-*Data Explorations are like museum guides and exploit the digital docents in MINERVA to guide readers through the complexities of a large image dataset via a series of narrated stories and waypoints.*
+
+
+## Data Stories
+*Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints*
 
 {% assign cardList = 'osd-BRCA-WT-vs-BRCA1-associated-TNBC' %}
 
 {% include cards.html list=cardList %}
 
-## Data Overviews
-*Data Overviews provide access to minimally processed Level 2 images with no annotation or quality control. Click any of the following thumbnail images for an interactive view of the full-resolution images.*
+## View Tissue Images
+*Access the minimally processed, unannotated Level 2 images associated with the Gray Foundation BRCA Pre-cancer Atlas. Click any of the following thumbnail images for an interactive view of the full-resolution images.*
 
 {% assign dataCards = site.data-cards
     | where_exp: "item", "item.url contains 'mehta-2020,keenan-2020'"
