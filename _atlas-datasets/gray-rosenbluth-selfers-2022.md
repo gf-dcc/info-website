@@ -11,8 +11,8 @@ data:
     description: The breast is a dynamic organ whose response to physiological and pathophysiological conditions alters its disease susceptibility, yet the specific effects of these clinical variables on cell state remain poorly annotated. We present a unified, high-resolution breast atlas by integrating single-cell RNA-seq, mass cytometry, and cyclic immunofluorescence, encompassing a myriad of states. We define cell subtypes within the alveolar, hormone-sensing, and basal epithelial lineages, delineating associations of several subtypes with cancer risk factors, including age, parity, and BRCA2 germline mutation. Of particular interest is a subset of alveolar cells termed basal-luminal (BL) cells, which exhibit poor transcriptional lineage fidelity, accumulate with age, and carry a gene signature associated with basal-like breast cancer. We further utilize a medium-depletion approach to identify molecular factors regulating cell-subtype proportion in organoids. Together, these data are a rich resource to elucidate diverse mammary cell states.
     links:
       - Publication: https://doi.org/10.1016/j.devcel.2022.05.003
-      - Sequencing: https://singlecell.broadinstitute.org/single_cell/app/studies?type=study&page=1&terms=Brugge
-      - CellxGene: https://cellxgene.cziscience.com/collections/99f1515b-46a2-4bc4-94c3-f62659dc1eb4
+      - Sequencing: https://singlecell.broadinstitute.org/single_cell/study/SCP1731/a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics
+      - CyTOF: https://data.mendeley.com/datasets/pcftzv8w63/1
 ---
 
 {% assign urlParts = page.url | split: '/' %}
