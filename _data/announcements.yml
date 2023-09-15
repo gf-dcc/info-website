@@ -7,11 +7,3 @@ publications_software:
     link: "publications#a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics"
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
-  - title: "H2Bub1 loss is an early contributor to clear cell ovarian cancer progression."
-    author: "Ferrari et al."
-    year: 2023
-    publication: "JCI Insight"
-    image: "publications/H2Bub1-loss-clear-cell-ovarian-cancer-progression.jpg"
-    link: "publications#H2Bub1-loss-is-an-early-contributor-to-clear-cell-ovarian-cancer-progression"
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
