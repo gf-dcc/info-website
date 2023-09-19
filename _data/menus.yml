@@ -26,3 +26,7 @@ main:
     section_id: data
     url: "/data"
     target: "_self"
+  - name: "Documentation"
+    section_id: Documentation
+    url: "https://docs.graybrcaatlas.org/"
+    target: "_blank"
