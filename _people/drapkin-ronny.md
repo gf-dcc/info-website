@@ -4,7 +4,7 @@ positions:
   - Perelman School of Medicine, University of Pennsylvania
 associations:
   - "Lab: [Drapkin Lab](https://www.med.upenn.edu/drapkinlab/)"
-  - "Project: [Ovarian STICS](projects/ovarian)"
+  - "Project: [Ovarian STICS](/atlas-datasets/ovarian-pilot)"
 
 photo: people/drapkin-ronny.jpg
 
