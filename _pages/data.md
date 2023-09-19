@@ -18,7 +18,7 @@ Tissue images associated with the Gray Foundation BRCA Pre-cancer Atlas projects
 
 
 ## Data Stories
-*Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints*
+*Data Stories are guide readers through the complexities of large datasets via Minerva Story's narrated waypoints to explore tissue images and cellxgene's single-cell visualizations.*
 
 {% assign cardList = 'cellxgene,single-cell-portal,ovarian-cancer-with-annotation-lsp15327,ovarian-cancer-with-annotation-lsp15343,osd-BRCA-WT-vs-BRCA1-associated-TNBC,brca1-associated-triple' %}
 
