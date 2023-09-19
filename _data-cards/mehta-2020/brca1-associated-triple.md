@@ -6,4 +6,6 @@ date: 2020-11-18
 
 minerva_link: https://www.cycif.org/data/mehta-2020/osd-BRCA-WT-vs-BRCA1-associated-TNBC
 info_link: https://www.cycif.org/data/mehta-2020/
+
+tags: BRCA
 ---

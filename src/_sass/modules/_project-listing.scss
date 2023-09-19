@@ -112,3 +112,52 @@ h2.project-listing__title {
         @include font-size(16px);
     }
 }
+
+.project-listing__links {
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    align-items:center;
+}
+.project-listing__link {
+    display:inline-block;
+    margin:0 0 0 25px;
+    padding:0;
+    line-height:1;
+
+    &:first-child {
+        margin-left:0;
+    }
+
+    a {
+        padding:0 12px 1px;
+        background:$color_blue;
+        height:32px;
+        min-width:32px;
+        box-sizing:border-box;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        transition:all 0.2s $ease-out-quad;
+        color:$color_white;
+        font-style: italic;
+        text-decoration: none;
+        
+        &.no-button-style {
+            padding:0;
+            background:none;
+            height:auto;
+        }
+
+        &:hover {
+            background:$color_dark-blue;
+
+            &.no-button-style {
+                padding:0;
+                background:none;
+            }
+        }
+    }
+
+}

@@ -7,7 +7,22 @@ layout: secondary
 ---
 # ABOUT
 
-The Gray Foundation seeks to transform treatment and prevention for BRCA1/2 mutation-associated cancers through innovative research and new profiling methods. Emerging spatial profiling technologies, including highly multiplexed tissue imaging and spatial transcriptomics and proteomics, make it possible to identify the positions, activities, and interactions of different cell types within the 3D tumor microenvironment. Such data provide significant new insight into disease progression, metastasis, and drug resistance and promise to transform traditional histopathological diagnosis of disease. The greatest barrier to wider and more effective use of highly multiplexed tissue images is the incomplete level of software development for analyzing and sharing such data. The Gray Foundation Data Portal supports the Gray Foundation’s research into early detection, prevention and treatment of BRCA1/2-associated cancers by providing a platform for investigators to collect, analyze, and share spatial profiling data and integrate them with other data modalities.
+Men and women with mutations in either the BRCA1 or BRCA2 gene are at an increased risk of developing certain cancers, including breast, ovarian, pancreatic, or prostate. The Gray Foundation aims to transform the prevention, early detection, and treatment of BRCA1/2 mutation-associated cancers by facilitating the collaboration of innovative, multi-institutional research teams aligned with this goal.
+
+Research supported by the Gray Foundation is wide-ranging, including several emerging spatial profiling technologies, such as highly multiplexed tissue imaging, spatial transcriptomics, and spatial proteomics. These spatial methods make it possible to identify the positions, activities, and interactions of different cell types within the 3D tumor microenvironment and provide significant new insights into how cancer progresses, metastasizes, and develops resistance to therapy. Together, these data have the promise to help transform how BRCA1/2 mutation-associated cancers are prevented, detected, and managed.
+The Gray Foundation Data Portal provides a consolidated resource of Gray Foundation research, enabling researchers to easily access, investigate, and repurpose the latest cutting-edge BRCA1/2 research for their own purposes. By providing a platform for investigators to collect, analyze, and share multi-modal data, we hope to lay the foundation for collaborative Team Science that can lead to new breakthroughs into BRCA-associated cancers with the greatest collective impact.
+
+## Envisioning an Atlas
+
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="865802218" title="Breast Cancer Atlas with Dr. Joan Brugge" %}
+  </div>
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="865802218" title="Ovarian Cancer Atlas with Drs. Ronny Drapkin and Tanjina Kader" %}
+  </div>
+</div>
+
 
 ## CONTACT
 This site is maintained by [Sage Bionetworks](https://sagebionetworks.org/) and the Gray Cancer Atlas program team at the [Laboratory of Systems Pharmacology](https://labsyspharm.org/), Harvard Medical School. If you have questions or would like additional information about the project, please contact [gray-foundation-service@sagebase.org](mailto:gray-foundation-service@sagebase.org?subject=Gray BRCA Pre-Cancer Atlas Website Inquiry).

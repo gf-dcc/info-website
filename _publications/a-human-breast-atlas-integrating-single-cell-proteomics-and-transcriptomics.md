@@ -12,6 +12,7 @@ group: publications
 date: 2023-07-01
 
 minerva_link:
+dataset_link: /atlas-datasets/gray-rosenbluth-selfers-2022
 rxiv_link:
 pdf_link:
 show_page_link: false

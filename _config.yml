@@ -19,6 +19,8 @@ collections:
     permalink: /:path
   data-cards:
     output: false
+  atlas-datasets:
+    output: true
   publications: 
     output: true
   projects: 
