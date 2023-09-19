@@ -3,32 +3,7 @@ title: BRCA1/2 Cancer Atlas
 permalink: /data
 
 section_id: data
-layout: secondary
+layout: iframe
 ---
 
-# Data
-
-All non-image data associated with the Gray Foundation BRCA Pre-cancer Atlas projects are maintained by Sage Bionetworks. To access the catalog of links to the primary data, visit the Sage Bionetworks Data Portal, below:
-
-<a href="https://portal-613w4c5vz-gray-foundation-dcc.vercel.app/" target="_blank" class="arrow-button">Data Portal</a>
-
-Tissue images associated with the Gray Foundation BRCA Pre-cancer Atlas projects can be viewed online via the software [Minerva](https://github.com/labsyspharm/minerva-story/wiki) and are catalogued below.
-
-
-
-
-## Data Stories
-*Data Stories are guide readers through the complexities of large datasets via Minerva Story's narrated waypoints to explore tissue images and cellxgene's single-cell visualizations.*
-
-{% assign cardList = 'cellxgene,single-cell-portal,ovarian-cancer-with-annotation-lsp15327,ovarian-cancer-with-annotation-lsp15343,osd-BRCA-WT-vs-BRCA1-associated-TNBC,brca1-associated-triple' %}
-
-{% include cards.html list=cardList %}
-
-## View Tissue Images
-*Access the minimally processed, unannotated Level 2 images associated with the Gray Foundation BRCA Pre-cancer Atlas. Click any of the following thumbnail images for an interactive view of the full-resolution images.*
-
-{% assign dataCards = site.data-cards
-    | where_exp: "item", "item.url contains 'mehta-2020,keenan-2020, kadar-drapkin-ovarian-pilot, gray-rosenbluth-selfers-2022'"
-    | where_exp: "item", "item.hide != true" %}
-
-{% include cards.html tag='BRCA' %}
+<iframe id="" class="" src="https://portal-git-develop-gf-dcc-service.vercel.app/explore?contentOnly" style="position: relative; width: 100%; height: 1000px; border: none;"></iframe>
