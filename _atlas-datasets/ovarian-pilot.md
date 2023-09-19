@@ -48,8 +48,3 @@ data:
 {% if overviews.size > 0 %}
   {% include cards.html cards=overviews %}
 {% endif %}
-
-
-## Data access
-
-Pellentesque varius turpis et felis consectetur feugiat. Sed quis ex vel lectus molestie fringilla at eget quam. Nam feugiat, nunc id consectetur dapibus, purus leo efficitur est, et iaculis erat ipsum quis erat.
