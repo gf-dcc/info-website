@@ -5,7 +5,8 @@ section_id: projects
 
 data:
   publication:
-    title: Ovarian Serous Tubal Intraepithelial Carcinoma (STIC)
+    title: Generating and incorporating ovarian cancer data to Gray Foundation pre-cancer BRCA Atlas
+    description: The goal of this project is to generate genomic, transcriptomic, and imaging data on early BRCA ovarian lesions to be incorporated into the Gray BRCA Precancer Atlas.
 
 ---
 
