@@ -1,8 +1,8 @@
 ---
 title: Dissection of BRCA-mediated Tumor Suppression Pathways
-project_lead: Patrick Sung, D.Phil 
+project_lead: Patrick Sung, D.Phil
 team: D’Andrea, Chowdhury, Greenberg
-research_questions: 
+research_questions:
   - What are the regulators of BRCA function?
   - What are BRCA-independent DNA repair pathways?
   - What are the DNA repair mechanisms?
@@ -14,4 +14,4 @@ related_publications:
 
 weight: 50
 ---
-BRCA1 and BRCA2 are part of a complex network of DNA damage checkpoints and repair pathways that has evolved to minimize the harm causes by environmental agents (e.g. high energy radiation) and reactive metabolites (e.g. aldehydes and free radicals) that damage DNA. Disruption of this network can leads genome instability and disease, especially cancer. g how the BRCA tumor suppressor network executes its biological functions could provide the foundation for developing targeted cancer therapeutics. Dr. Patrick Sung is leveraging new advances in BRCA protein purification to carry out mechanistic studies of BRCA pathways that elucidate the biochemical attributes of these complexes and the multi-faceted roles that they fulfill in genome maintenance.
+The goal of this project is to better understand how BRCA-mediated defects in DNA repair mechanisms give rise to cancer and later to resistance to standard therapy. BRCA1 and BRCA2 are part of a complex network of DNA damage checkpoints and repair pathways that has evolved to minimize the harm causes by environmental agents (e.g. high energy radiation) and reactive metabolites (e.g. aldehydes and free radicals) that damage DNA. Disruption of this network can leads genome instability and disease, especially cancer. g how the BRCA tumor suppressor network executes its biological functions could provide the foundation for developing targeted cancer therapeutics. Dr. Patrick Sung is leveraging new advances in BRCA protein purification to carry out mechanistic studies of BRCA pathways that elucidate the biochemical attributes of these complexes and the multi-faceted roles that they fulfill in genome maintenance.

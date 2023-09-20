@@ -7,3 +7,4 @@ research_questions:
 
 weight: 70
 ---
+The goal of this project is to develop a sensitive blood test that will allow the detection of early BRCA cancers.
