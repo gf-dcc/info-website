@@ -5,7 +5,7 @@ positions:
 
 associations:
   - "For questions regarding data portal, bioinformatics & technical issues:"
-  - "[Email](debruiji@mskcc.org)"
+  - "Email:debruiji[at]mskcc.org"
 
 photo: people/de-bruijn-ino.png
 

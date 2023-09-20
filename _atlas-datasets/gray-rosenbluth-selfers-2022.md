@@ -36,12 +36,9 @@ data:
 {% include enlarge-image.html src='publications/a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.jpg' float='center' alt='Highlighted epithelial cell subtypes: 1. Young nulliparous (AP2:  Proliferative alveolar progenitors), 2. Aging associated (BL: Basal-luminal alveolar cells and BA1: Contractile ductal myoepithelial cells), 3. BRCA2 mutation associated (HS1 - ER-active hormone-sensing luminal cells), and 4. Parity associated (AP1: Parity-associated alveolar progenitors)' %}
 
 ### Contents
-* [Data Stories](#data-stories)
 * [Sequencing](#sequencing)
+* [Data Stories](#data-stories)
 * [Explore Tissue Images](#explore-tissue-images)
-
-## Data Stories
-**Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints.**
 
 ## Sequencing
 
@@ -63,6 +60,20 @@ Single cell RNA sequencing data can be found on GEO: [GSE180878](https://www.ncb
 
 {% if dataCardArray.size > 0 %}
   {% include cards.html cards=dataCardArray %}
+{% endif %}
+
+## Image Data stories
+**Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints.**
+
+{%
+    assign overviews = site.data-cards
+    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
+    | where_exp: "item", "item.hide != true"
+    | where_exp: "item", "item.title contains 'K22 (BRCA mutant)'"
+%}
+
+{% if overviews.size > 0 %}
+  {% include cards.html cards=overviews %}
 {% endif %}
 
 ## Explore Tissue Images
