@@ -1,12 +1,13 @@
 ---
-name: Ronny Drapkin, MD, PhD
+name: Charles Drescher, MD
 positions:
-  - Perelman School of Medicine, University of Pennsylvania
+  - Swedish Cancer Institute
+  - Paul G. Allen Research Center
 associations:
   - "Lab: [Drapkin Lab](https://www.med.upenn.edu/drapkinlab/)"
   - "Project: [Generating and incorporating ovarian cancer data to Gray Foundation pre-cancer BRCA Atlas](/atlas-datasets/Generating-and-incorporating-ovarian-cancer-data-to-Gray-Foundation-pre-cancer-BRCA-Atlas)"
 
-photo: people/drapkin-ronny.jpg
+photo: people/drescher-charles.jpg
 
 group: principals
 
