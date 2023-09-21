@@ -20,7 +20,7 @@ The Gray Foundation Atlas represents a consolidated resource for accessing Gray 
     {% include vimeo-card.html id="865802218" title="Breast Cancer Atlas with Dr. Joan Brugge" %}
   </div>
   <div class="col-md-6 mb-4">
-    {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Drs. Ronny Drapkin and Tanjina Kader" %}
+    {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" %}
   </div>
 </div>
 
