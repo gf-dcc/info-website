@@ -1,9 +1,25 @@
 publications_software:
+  - title: "An atlas of substrate specificities for the human serine/threonine kinome."
+    author: "Johnson et al"
+    year: 2023
+    publication: "Nature"
+    image: "publications/an-atlas-of-substrate-specificities-for-the-human-serinethreonine-kinome.jpg"
+    link: https://doi.org/10.1038/s41586-022-05575-3
+    label: Publication  # [Publication|Software|Method]
+    target: "_self"  # [_self|_blank]
   - title: "A human breast atlas integrating single-cell proteomics and transcriptomics."
     author: "Gray et al."
     year: 2022
     publication: "Dev Cell"
     image: "publications/a-human-breast-atlas-integrating.jpg"
     link: "publications#a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics"
+    label: Publication  # [Publication|Software|Method]
+    target: "_self"  # [_self|_blank]
+  - title: "Aneuploidy and a deregulated DNA damage response suggest haploinsufficiency in breast tissues of BRCA2 mutation carriers."
+    author: "Karaayvaz-Yildirim et al."
+    year: 2020
+    publication: "Science Advances"
+    image: "publications/aneuploidy-and-deregulated-DNA damage-response-suggest-haploinsufficiency.jpeg"
+    link: https://doi.org/10.1126/sciadv.aay2611
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
