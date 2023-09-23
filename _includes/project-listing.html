@@ -43,11 +43,9 @@
 
         {%- if include.content.graphics -%}
             <div class="project-listing__thumbs">
-                {% assign imgCounter = 0 %}
                 {%- for item in include.content.graphics -%}
 
-                    {% assign imgCounter = imgCounter | plus: 1 %}
-                    {% assign imgId = 'img' | append: include.counter | append: imgCounter %}
+                    {% assign imgId = 'img' | append: include.counter | append: '_' | append: forloop.index %}
 
                     <div class="project-listing__thumb">
                         <a href="#{{ imgId }}" data-lity>

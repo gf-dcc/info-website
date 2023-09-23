@@ -11,7 +11,7 @@ layout: secondary
         {% assign projects = site.projects | sort: 'weight' %}
         {% for project in projects %}
 
-            {% include project-listing.html content=project %}
+            {% include project-listing.html content=project counter=forloop.index %}
 
         {% endfor %}
 
