@@ -19,7 +19,7 @@ The site makes use of the [imgix](https://www.imgix.com/) image processing servi
 Note that the imgix service *can* also be used for images specified in the body of an entry by using the `site.imgbaseurl` property as a prefix for the file path.  This allows for using the imgix API on the image, which includes the ability to scale and crop.  For example:
 
 ```
-![]({{ site.imgbaseurl }}images/general/image.jpg?w=500)
+![]({{ site.imgbaseurl }}general/image.jpg?w=500)
 ```
 More information on the imgix API can be found [here](https://imgix.com/solutions/resizing-and-cropping).
 

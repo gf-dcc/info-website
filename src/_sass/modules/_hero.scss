@@ -15,28 +15,43 @@ section.hero {
     background-position:center;
     display:flex;
     align-items:center;
-    // transition:all 0.2s $ease-out-quad;
-    @include background-image($heroImage, 768, 480, 'crop', 25);
-    
+    position: relative;
+
     @include breakpoint(mobile-h) {
         min-height: 340px;
     }
     @include breakpoint(tablet-v) {
-        @include background-image($heroImage, 1200, 520, 'crop', 25);
         min-height: 400px;
     }
     @include breakpoint(desktop) {
         padding-top: $header_height_tablet;
     }
-    @include breakpoint(desktop-l) {
-        @include background-image($heroImage, 1800, 540, 'crop', 25);
-    }
     @include breakpoint(desktop-xxl) {
-        @include background-image($heroImage, 1920, 740, 'crop', 25);
         padding-top: $header_height_desktop;
         min-height: 530px;
     }
 }
+
+.hero__image-slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .slick-list,
+    .slick-list .slick-track {
+        height: 100% !important;
+    }
+}
+
 
 .hero__text-container {
     @extend %container;
@@ -59,6 +74,8 @@ section.hero {
     padding:16px 16px;
     margin:0;
     box-sizing:border-box;
+    position: relative;
+    z-index: 1;
 
     @include breakpoint(desktop) {
         max-width:550px;

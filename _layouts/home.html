@@ -5,6 +5,19 @@ layout: default
 <section class="hero">
     <div class="hero__container">
         <div class="hero__image">
+            <div class="hero__image-slides carousel" data-slick='{"slidesToShow": 1, "autoplay": true, "autoplaySpeed": 3000, "fade": true}'>
+                {% for image in page.hero_images %}
+                    <div>
+                        <picture>
+                        <source srcset="{{ site.imgbaseurl | append: image }}?w=1920&h=740&fit=crop&q=85" media="(min-width: 1800px)">
+                        <source srcset="{{ site.imgbaseurl | append: image }}?w=1800&h=540&fit=crop&q=85" media="(min-width: 1200px)">
+                        <source srcset="{{ site.imgbaseurl | append: image }}?w=1200&h=520&fit=crop&q=85" media="(min-width: 768px)">
+                        <img src="{{ site.imgbaseurl | append: image }}?w=768&h=480&fit=crop&q=85" alt="">
+                        </picture>
+                    </div>
+                {% endfor %}
+            </div>
+
             <div class="hero__text-container">
                 <div class="hero__text">
 
@@ -15,6 +28,8 @@ layout: default
         </div>
     </div>
 </section>
+
+
 
 <div class="secondary">
     <div class="secondary__content-wrap {% if page.wide_container %}secondary__content-wrap--wide{% else %}secondary__content-wrap--standard{% endif %}">

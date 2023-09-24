@@ -4,7 +4,10 @@ permalink: /
 
 hero text: |
   The Gray BRCA Pre-Cancer Atlas seeks to transform treatment and prevention for BRCA1/2 mutation-associated cancers through innovative research and new profiling methods.
-
+hero_images: 
+  - 'general/Gray1.jpg'
+  - 'general/Gray2.jpg'
+  - 'general/Gray3.jpg'
 
 wide_container: false
 section_id: home

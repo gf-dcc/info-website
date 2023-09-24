@@ -16,7 +16,7 @@ require('picturefill');
 require('jquery');
 require('jquery-hoverintent');
 require('jquery.easing');
-// require('slick-carousel');
+// require('slick-carousel');  // Loaded via CDN
 // require('lity');
 
 // Load our page-level modules (for dependency inspection/loading)
