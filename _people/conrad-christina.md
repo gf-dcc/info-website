@@ -10,5 +10,5 @@ photo: people/conrad-christina.png
 
 group: dcc
 
-weight: 10
+weight: 30
 ---

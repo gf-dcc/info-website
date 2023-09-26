@@ -11,5 +11,5 @@ photo: people/morin-pat.png
 
 group: directors
 
-weight: 10
+weight: 20
 ---

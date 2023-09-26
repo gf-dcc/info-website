@@ -11,5 +11,5 @@ photo: people/mitraka-elvira.png
 
 group: dcc
 
-weight: 30
+weight: 20
 ---
