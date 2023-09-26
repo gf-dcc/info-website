@@ -1,5 +1,5 @@
 ---
-name: Christina Conrad
+name: Christina Conrad, PhD
 positions:
   - Biomedical Data Manager, Sage Bionetworks
 

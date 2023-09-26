@@ -1,5 +1,5 @@
 ---
-name: Elvira Mitraka
+name: Elvira Mitraka, PhD
 positions:
   - Associate Director of SCCE, Sage Bionetworks
 
