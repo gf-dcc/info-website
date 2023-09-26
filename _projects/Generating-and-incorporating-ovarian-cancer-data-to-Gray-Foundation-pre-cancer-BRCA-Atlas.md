@@ -1,5 +1,5 @@
 ---
-title: Generating and incorporating ovarian cancer data to Gray Foundation pre-cancer BRCA Atlas
+title: Investigating the origins and early diagnosis of ovarian cancer  
 project_lead: Ronny Drapkin, MD, PhD and Charles Drescher, MD
 graphics:
   - H2Bub1-loss-early-contributor-clear-cell-ovarian-progression

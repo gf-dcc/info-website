@@ -5,8 +5,10 @@ section_id: projects
 
 data:
   publication:
-    title: Generating and incorporating ovarian cancer data to Gray Foundation pre-cancer BRCA Atlas
-    description: The goal of this project is to generate genomic, transcriptomic, and imaging data on early BRCA ovarian lesions to be incorporated into the Gray BRCA Precancer Atlas.
+    title: Investigating the origins and early diagnosis of ovarian cancer  
+    description: "Ovarian cancer is more deadly on a per case basis than breast cancer and has witnessed fewer advances in treatment or diagnosis. In the US, 20,000 new diagnoses and 14,000 deaths from ovarian cancer are recorded per year; this contrasts with 240,00 new cases of breast cancer and 42,000 deaths. Like breast cancer, ovarian cancer is much more frequent in individuals who carry mutations in the BRCA1 or BRAC2 genes (an~1.2% vs 40% lifetime risk). Thus, BRCA1/2 carriers face the terrible choice of living with a high risk of cancer or undergoing surgery to remove healthy ovaries and fallopian tubes (risk-reducing salpingo-oophorectomy).
+
+    One factor making the risk reduction decisions harder is that diagnosis of ovarian cancer is typically made late and the origins of the disease are poorly understood; this is also true of ovarian cancer in individuals who are not BRAC1/2 carriers. It has been discovered relatively recently that some epithelial ovarian cancers may arise in the fallopian tube, from a pre-cancerous lesion know as a serous tubal intraepithelial carcinoma (STIC). The goal of our project is to better characterize the biology of STICs to understand its clinical significance and develop precise criteria for diagnosing STICs in surgical samples. This is being performed using a range of genomic and spatial profiling tools that are expected to generate a data atlas as early as 2024. We expect these data to significantly impact how we treat people at risk for this terrible disease." 
 
 ---
 
