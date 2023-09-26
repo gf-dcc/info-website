@@ -10,5 +10,5 @@ photo: people/vu-anh-nguyet.png
 
 group: dcc
 
-weight: 20
+weight: 40
 ---
