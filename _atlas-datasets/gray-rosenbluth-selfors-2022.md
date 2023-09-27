@@ -42,7 +42,7 @@ data:
 {% include enlarge-image.html src='publications/a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.jpg' float='center' alt='Highlighted epithelial cell subtypes: 1. Young nulliparous (AP2:  Proliferative alveolar progenitors), 2. Aging associated (BL: Basal-luminal alveolar cells and BA1: Contractile ductal myoepithelial cells), 3. BRCA2 mutation associated (HS1 - ER-active hormone-sensing luminal cells), and 4. Parity associated (AP1: Parity-associated alveolar progenitors)' %}
 
 ### Data Stories
-Data Stories are data visualizations that guide readers through the complexities of a large dataset via a series of progressive narrated waypoints.
+Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
 
 {%
     assign overviews = site.data-cards
