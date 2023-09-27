@@ -5,7 +5,7 @@ positions:
 
 associations:
   - "For questions regarding data use/transfer agreements, other data governance:"
-  - "Email: gray-foundation-service[at]sagebase.org, include 'governance' in subject for correct routing"
+  - "Email: [gray-foundation-service[at]sagebase.org](mailto:gray-foundation-service@sagebase.org), include 'governance' in subject for correct routing"
 
 photo: people/corrigan-kimberly.png
 
