@@ -21,8 +21,7 @@ data:
 ## Contents
   * [Team](#team)
   * [Research Questions](#research-questions)
-  * [Sequencing](#sequencing)
-  * [Image Data Stories](#image-data-stories)
+  * [Data Stories](#data-stories)
   * [Explore Tissue Images](#explore-tissue-images)
 
 ### Team
@@ -36,44 +35,22 @@ data:
   - How do we detection cancer evolution in carriers?
   - How do we intercept and eradicate tumor development?
 
-## Sequencing
-
-Single cell RNA sequencing data can be found on GEO: [GSE180878](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180878).
-
-{%
-    assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'Sequencing'"  %}
-
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
-
-## Image Data Stories
-**Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints.**
+### Data Stories
+Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
 
 {%
     assign overviews = site.data-cards
     | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.title contains 'K22 (BRCA mutant)'"
+    | where_exp: "item", "item.tags contains 'Overview'"
 %}
 
 {% if overviews.size > 0 %}
   {% include cards.html cards=overviews %}
 {% endif %}
 
-
-## Explore Tissue Images
-**Access the minimally processed, unannotated Level 2 images associated with this publication. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
+### Explore Tissue Images
+Access the minimally processed, unannotated Level 2 images associated with this publication. Click any of the following thumbnail images for an interactive view of the full-resolution images.
 
 {%
     assign stories = site.data-cards

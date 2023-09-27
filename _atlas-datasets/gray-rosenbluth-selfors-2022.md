@@ -24,6 +24,12 @@ data:
     thumbnailDir=sectionId %}
 
 
+## Contents
+* [Key Findings](#key-findings)
+* [Data Stories](#data-stories)
+* [Explore Tissue Images](#explore-tissue-images)
+
+
 ### Key Findings
   - Multimodal single-cell analyses identify breast epithelial and stromal subtypes
 
@@ -35,49 +41,22 @@ data:
 
 {% include enlarge-image.html src='publications/a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.jpg' float='center' alt='Highlighted epithelial cell subtypes: 1. Young nulliparous (AP2:  Proliferative alveolar progenitors), 2. Aging associated (BL: Basal-luminal alveolar cells and BA1: Contractile ductal myoepithelial cells), 3. BRCA2 mutation associated (HS1 - ER-active hormone-sensing luminal cells), and 4. Parity associated (AP1: Parity-associated alveolar progenitors)' %}
 
-### Contents
-* [Sequencing](#sequencing)
-* [Data Stories](#data-stories)
-* [Explore Tissue Images](#explore-tissue-images)
-
-## Sequencing
-
-Single cell RNA sequencing data can be found on GEO: [GSE180878](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE180878).
-
-{%
-    assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'Sequencing'"
-%}
-
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% unless s.url contains '-overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endunless %}
-{% endfor %}
-
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
-{% endif %}
-
-## Image Data stories
-**Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints.**
+### Data Stories
+Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
 
 {%
     assign overviews = site.data-cards
     | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.title contains 'K22 (BRCA mutant)'"
+    | where_exp: "item", "item.tags contains 'Overview'"
 %}
 
 {% if overviews.size > 0 %}
   {% include cards.html cards=overviews %}
 {% endif %}
 
-## Explore Tissue Images
-**Access the minimally processed, unannotated Level 2 images associated with this publication. Click any of the following thumbnail images for an interactive view of the full-resolution images.**
+### Explore Tissue Images
+Access the minimally processed, unannotated Level 2 images associated with this publication. Click any of the following thumbnail images for an interactive view of the full-resolution images.
 
 {%
     assign stories = site.data-cards
