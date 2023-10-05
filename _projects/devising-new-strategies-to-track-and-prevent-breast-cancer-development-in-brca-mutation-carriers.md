@@ -1,7 +1,7 @@
 ---
 title: Devising new strategies to track and prevent breast cancer development in BRCA mutation carriers
 project_lead: Joan Brugge, PhD
-team: Aparicio, Dillon, Lin, Santagata, Garber, Venkitaraman
+team: Brugge, Nathanson, Ellisen, Aparicio, Long, Dillon, Garber
 research_questions:
   - How do basal and luminal breast cells contribute to BRCA-related cancers?
   - How do BRCA tumor cells evolve?
