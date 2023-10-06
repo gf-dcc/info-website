@@ -4,7 +4,7 @@ positions:
   - Cleveland Clinic
 associations:
   - "Lab: [Eng Lab](https://lerner.ccf.org/genomic-medicine/eng/)"
-  - "Project: [Interplay and perturbations of the local microbiome and host immune system in breast cancer](projects/#interplay-and-perturbations-of-the-local-microbiome-and-host-immune-system-in-breast-cancer)"
+  - "Project: [Interplay and perturbations of the local microbiome and host immune system in breast cancer](projects#interplay-and-perturbations-of-the-local-microbiome-and-host-immune-system-in-breast-cancer)"
 
 photo: people/eng-charis.jpg
 

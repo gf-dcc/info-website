@@ -4,7 +4,7 @@ positions:
   - Univ. of Texas Health Science Center at San Antonio
 associations:
   - "Lab: [Sung Lab](https://campaigns.uthscsa.edu/lab-sung/)"
-  - "Project: [Dissection of BRCA-mediated Tumor Suppression Pathways](projects/#dissection-of-brca-mediated-tumor-suppression-pathways)"
+  - "Project: [Dissection of BRCA-mediated Tumor Suppression Pathways](projects#dissection-of-brca-mediated-tumor-suppression-pathways)"
 
 photo: people/sung-patrick.jpg
 
