@@ -9,8 +9,8 @@ research_questions:
   - What are the drug vulnerabilities of BRCA deficient cells?
 
 related_publications:
-  - "Zhao W, Wiese C, Kwon Y, Hromas R, Sung P. The BRCA Tumor Suppressor Network in Chromosome Damage Repair by Homologous Recombination. Annu Rev Biochem. 2019 Jun 20;88:221-245. doi: 10.1146/annurev-biochem-013118-111058. Epub 2019 Mar 27. PMID: 30917004; PMCID: PMC7004434."
-  - "Tarsounas M, Sung P. The antitumorigenic roles of BRCA1-BARD1 in DNA repair and replication. Nat Rev Mol Cell Biol. 2020 May;21(5):284-299. doi: 10.1038/s41580-020-0218-z. Epub 2020 Feb 24. PMID: 32094664; PMCID: PMC7204409."
+  - "Zhao W, Wiese C, Kwon Y, Hromas R, Sung P. The BRCA Tumor Suppressor Network in Chromosome Damage Repair by Homologous Recombination. Annu Rev Biochem. 2019 Jun 20;88:221-245. doi: [10.1146/annurev-biochem-013118-111058](https://www.doi.org/10.1146/annurev-biochem-013118-111058). Epub 2019 Mar 27. PMID: [30917004](https://pubmed.ncbi.nlm.nih.gov/30917004); PMCID: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7004434]."
+  - "Tarsounas M, Sung P. The antitumorigenic roles of BRCA1-BARD1 in DNA repair and replication. Nat Rev Mol Cell Biol. 2020 May;21(5):284-299. doi: [10.1038/s41580-020-0218-z](https://www.doi.org/10.1038/s41580-020-0218-z). Epub 2020 Feb 24. PMID: [32094664](https://pubmed.ncbi.nlm.nih.gov/32094664); PMCID: PMC7204409."
 
 weight: 50
 ---
