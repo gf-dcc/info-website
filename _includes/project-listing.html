@@ -1,4 +1,4 @@
-<div class="project-listing">
+<div class="project-listing" id="{{ include.content.slug }}">
     <h2 class="project-listing__title">{{ include.content.title }}</h2>
     {%- if include.content.project_lead -%}
         <div class="project-listing__meta-item">
@@ -69,7 +69,7 @@
             <ul class="project-listing__publications">
                 {%- for item in include.content.related_publications -%}
                     <li class="project-listing__publication">
-                        {{ item }}
+                        {{ item | markdownify }}
                     </li>
                 {%- endfor -%}
             </ul>
