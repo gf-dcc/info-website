@@ -11,5 +11,5 @@ photo: people/de-bruijn-ino.png
 
 group: dcc
 
-weight: 70
+weight: 80
 ---

@@ -7,5 +7,5 @@ photo: people/schultz-nikolaus.jpg
 
 group: dcc
 
-weight: 60
+weight: 70
 ---
