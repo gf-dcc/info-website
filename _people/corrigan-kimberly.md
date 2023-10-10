@@ -11,5 +11,5 @@ photo: people/corrigan-kimberly.png
 
 group: dcc
 
-weight: 50
+weight: 60
 ---
