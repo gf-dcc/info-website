@@ -6,7 +6,7 @@ research_questions:
   - What are the BRCA cellular vulnerabilities?
   - What are tissue-based markers for prevention approaches?
 graphics:
-  - aneuploidy-and-a-deregulated-DNA-damage-response-suggest-haploinsufficiency-in-breast-tissues-of-BRCA2-mutation-carriers
+  - aneuploidy-deregulated-DNA-damage-response
 related_publications:
 - "Karaayvaz-Yildirim M, Silberman RE, Langenbucher A, Saladi SV, Ross KN, Zarcaro E, Desmond A, Yildirim M, Vivekanandan V, Ravichandran H, Mylavagnanam R, Specht MC, Ramaswamy S, Lawrence M, Amon A, Ellisen LW. Aneuploidy and a deregulated DNA damage response suggest haploinsufficiency in breast tissues of BRCA2 mutation carriers. Sci Adv. 2020 Jan 29;6(5):eaay2611. doi: [10.1126/sciadv.aay2611](https://www.doi.org/10.1126/sciadv.aay2611). PMID: [32064343](https://pubmed.ncbi.nlm.nih.gov/32064343); PMCID: PMC6989139."
 weight: 30
