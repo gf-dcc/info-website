@@ -83,7 +83,11 @@ Below is information about the front matter options for each of the site's colle
 - **date** - Date representing when the dataset was posted.  Can be adjusted as needed to move the entry higher or lower in its display order (newer items are listed first in the dataset lists)
 - **featured** (boolean) - If *true*, will display this entry on the homepage
 - **minerva_link** - Link to the associated Minerva page
-- **info_link** - Link to the associated (off-site) info page
+- **broad_portal_link** - Link to the associated Broad Single Cell Portal page
+- **cbio_portal_link** - Link to the associated cBioPortal page
+- **cellxgene_link** - Link to the associated cellxgene page
+- **view_data_link** - Link to an associated data page (displays a 'View Data' button)
+- **info_link** - Link to the associated (off-site) info page (displays an 'i' icon)
 - **tags** (array) - List of tags that can be used to filter on when using the *cards.html* include file.
 
 ### publications ###
