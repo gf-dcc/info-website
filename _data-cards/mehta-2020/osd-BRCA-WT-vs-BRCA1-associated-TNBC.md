@@ -4,6 +4,9 @@ image: https://www.cycif.org/assets/img/mehta-2020/BRCA-WT-vs-BRCA1-associated-T
 date: '2010-01-07'
 minerva_link: https://www.cycif.org/data/mehta-2020/osd-BRCA-WT-vs-BRCA1-associated-TNBC.html
 info_link: https://www.cycif.org/data/mehta-2020/index.html
-tags: BRCA
+tags:
+  - Gray
+  - BRCA
+  - CyCIF
 featured: true
 ---

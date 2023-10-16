@@ -1,18 +1,30 @@
 publications_software:
+  - title: "Investigating the origins and early diagnosis of ovarian cancer."
+    author: "Drapkin"
+    year: "(In Progress)"
+    publication:
+    image: "general/home_header-image-01.jpg"
+    link: "atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer"
+    label: Project  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    label2: Video Overview
+    link2: "atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/#project-overview"
+  - title: "A human breast atlas integrating single-cell proteomics and transcriptomics."
+    author: "Gray et al"
+    year: 2022
+    publication: Dev Cell
+    image: "publications/a-human-breast-atlas-integrating.jpg"
+    link: "https://gf-dcc.github.io/info-website/atlas-datasets/gray-rosenbluth-selfors-2022/"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    label2: Video Overview
+    link2: "atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers/#project-overview"
   - title: "An atlas of substrate specificities for the human serine/threonine kinome."
     author: "Johnson et al"
     year: 2023
     publication: "Nature"
     image: "publications/an-atlas-of-substrate-specificities-for-the-human-serinethreonine-kinome.jpg"
     link: https://doi.org/10.1038/s41586-022-05575-3
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
-  - title: "A human breast atlas integrating single-cell proteomics and transcriptomics."
-    author: "Gray et al."
-    year: 2022
-    publication: "Dev Cell"
-    image: "publications/a-human-breast-atlas-integrating.jpg"
-    link: "publications#a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics"
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
   - title: "Aneuploidy and a deregulated DNA damage response suggest haploinsufficiency in breast tissues of BRCA2 mutation carriers."

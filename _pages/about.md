@@ -19,6 +19,9 @@ The Gray Foundation Atlas represents a consolidated resource for accessing Gray 
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="866199199" title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena" %}
   </div>
+</div>
+## Building a BRCA Atlas with our Investigators
+<div class="row mb-4">
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="865802218" title="Breast Cancer Atlas with Dr. Joan Brugge" %}
   </div>

@@ -62,6 +62,7 @@ Access the minimally processed, unannotated Level 2 images associated with this 
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
     | where_exp: "item", "item.hide != true"
+    | where_exp: "item", "item.tags contains 'CyCIF'"
 %}
 
 {% assign dataCardArray = '' | split: '' %}
