@@ -4,5 +4,8 @@ image: https://www.cycif.org/assets/img/keenan-2020/25_C2_b.jpg
 date: '2006-01-02'
 minerva_link: https://www.cycif.org/data/keenan-2020/osd-25_C2_b.html
 info_link: https://www.cycif.org/data/keenan-2020/index.html
-tags: BRCA
+tags:
+  - Gray
+  - BRCA
+  - CyCIF
 ---
