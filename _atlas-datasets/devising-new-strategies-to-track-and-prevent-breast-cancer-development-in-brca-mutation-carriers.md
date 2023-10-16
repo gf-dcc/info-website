@@ -19,10 +19,18 @@ data:
     thumbnailDir=sectionId %}
 
 ## Contents
+  * [Project Overview](#project-overview)
   * [Team](#team)
   * [Research Questions](#research-questions)
   * [Data Stories](#data-stories)
   * [Explore Tissue Images](#explore-tissue-images)
+
+## Project Overview
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="865802218" title="Breast Cancer Atlas with Dr. Joan Brugge" %}
+  </div>
+</div>
 
 ### Team
   - Project Lead: Joan Brugge, PhD
@@ -56,6 +64,7 @@ Access the minimally processed, unannotated Level 2 images associated with this 
     assign stories = site.data-cards
     | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
     | where_exp: "item", "item.hide != true"
+    | where_exp: "item", "item.tags contains 'CyCIF'"
 %}
 
 {% assign dataCardArray = '' | split: '' %}
