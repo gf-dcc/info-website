@@ -28,5 +28,5 @@ main:
     target: "_self"
   - name: "Documentation"
     section_id: Documentation
-    url: "https://docs.graybrcaatlas.org/"
-    target: "_blank"
+    url: "/docs"
+    target: "_self"
