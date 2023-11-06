@@ -3,7 +3,7 @@
         <h2 class="cards__heading">{{ include.heading }}</h2>
     {% endif %}
     <div class="cards__backing">
-        <div class="cards__inner container-wide">
+        <div class="cards__inner wrapper-wide">
             {% comment %}
                 Start by establishing our data source collection. 
                 By default, our data source is the 'data-cards' 
@@ -67,15 +67,15 @@
                 {% endfor %}
             </div>
         </div>
+
+        {% if include.cta-url %}
+            <div class="cards__cta-wrap">
+                <a href="{{ include.cta-url }}" class="arrow-button">{{ include.cta-label }}</a>
+
+                {% if include.cta-url2 %}
+                    <a href="{{ include.cta-url2 }}" class="arrow-button">{{ include.cta-label2 }}</a>
+                {% endif %}
+            </div>
+        {% endif %}
     </div>
-
-    {% if include.cta-url %}
-        <div class="cards__cta-wrap">
-            <a href="{{ include.cta-url }}" class="arrow-button">{{ include.cta-label }}</a>
-
-            {% if include.cta-url2 %}
-                <a href="{{ include.cta-url2 }}" class="arrow-button">{{ include.cta-label2 }}</a>
-            {% endif %}
-        </div>
-    {% endif %}
 </section>

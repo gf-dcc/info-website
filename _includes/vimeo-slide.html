@@ -1,0 +1,31 @@
+<div>
+  <div class="vimeo-slider__slide">
+    <div class="vimeo-slider__slide-content">
+      <img srcset="{{ '/assets/img/logo-gray_white.png' | relative_url }}, 
+        {{ '/assets/img/logo-gray_white@2x.png' | relative_url }} 2x"
+        src="{{ '/assets/img/logo-gray_white.png' | relative_url }}" 
+        alt="Gray Foundation" class="vimeo-slider__slide-logo">
+      <div class="video-slider__slide-title">{{ include.title }}</div>
+    </div>
+    <div class="vimeo-slider__slide-thumb">
+      <img src="{{ site.imgbaseurl | append: include.image }}?w=290&h=215&fit=clip" alt="">
+    </div>
+    <a href="https://player.vimeo.com/video/{{ include.id }}" class="video-card__slide-overlay" data-lity>
+      <span class="video-card__slide-play"></span>  
+    </a>
+  </div>
+  <div class="vimeo-slider__slide-footer">
+    <div class="video-slider__slide-footer-title">{{ include.title }}</div>
+    <a href="https://player.vimeo.com/video/{{ include.id }}" class="video-card__slide-video-link" data-lity>Click to Enlarge</a>
+    {% if include.link %}
+      <div>
+        {% if include.link contains 'http' %}
+          {% assign url = include.link %}
+        {% else %}
+          {% assign url = include.link | relative_url %}
+        {% endif %}
+        <a href="{{ url }}" class="video-card__slide-project-link">{{ include.label }}</a>
+      </div>
+    {% endif %}
+  </div>
+</div>

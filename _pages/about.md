@@ -14,21 +14,28 @@ The Gray Pre-Cancer Atlas project is using a range of newly developed single cel
 The Gray Foundation Atlas represents a consolidated resource for accessing Gray Foundation research on BRCA1/2 diseases. The Atlas was launched in the Fall of 2023 and is expected to grow over the next few years – please check back for updates.
 
 ## Envisioning an Atlas
-
-<div class="row mb-4">
-  <div class="col-md-6 mb-4">
-    {% include vimeo-card.html id="866199199" title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena" %}
+{:.section-heading.mt-5.mt-lg-7}
+<section class="offset-background mb-5 mb-lg-7">
+  <div class="wrapper">
+    {% include vimeo-slider-start.html %}
+      {% include vimeo-slide.html 
+        id="866199199" 
+        title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena" 
+        image="people/santagata-sandro.jpg"
+      %}
+      {% include vimeo-slide.html 
+        id="865802218" 
+        title="Breast Cancer Atlas with Dr. Joan Brugge" 
+        image="people/brugge-joan.jpg"
+      %}
+      {% include vimeo-slide.html 
+        id="866120650" 
+        title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" 
+        image="general/drapkin-and-kader.jpg"
+      %}
+    {% include vimeo-slider-end.html %}
   </div>
-</div>
-## Building a BRCA Atlas with our Investigators
-<div class="row mb-4">
-  <div class="col-md-6 mb-4">
-    {% include vimeo-card.html id="865802218" title="Breast Cancer Atlas with Dr. Joan Brugge" %}
-  </div>
-  <div class="col-md-6 mb-4">
-    {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" %}
-  </div>
-</div>
+</section>
 
 
 ## CONTACT
