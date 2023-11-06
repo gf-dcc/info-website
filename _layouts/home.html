@@ -39,8 +39,8 @@ layout: default
         {% assign cards = site.data.announcements.publications_software %}
         {% assign cta_url = 'publications' | relative_url %}
         {% assign cta_label = 'View all publications' %}
-        {% assign cta_url2 = null %}
-        {% assign cta_label2 = null %}
+        {% assign cta_url2 = 'projects' | relative_url %}
+        {% assign cta_label2 = 'View all projects' %}
 
         {% include cards.html
             heading='Publications & Projects' 
