@@ -18,20 +18,24 @@ The Gray Foundation Atlas represents a consolidated resource for accessing Gray 
 <section class="offset-background mb-5 mb-lg-7">
   <div class="wrapper">
     {% include vimeo-slider-start.html %}
-      {% include vimeo-slide.html 
-        id="866199199" 
-        title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena" 
+      {% include vimeo-slide.html
+        id="866199199"
+        title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena"
         image="people/santagata-sandro.jpg"
       %}
-      {% include vimeo-slide.html 
-        id="865802218" 
-        title="Breast Cancer Atlas with Dr. Joan Brugge" 
+      {% include vimeo-slide.html
+        id="865802218"
+        title="Breast Cancer Atlas with Dr. Joan Brugge"
         image="people/brugge-joan.jpg"
+        link="/atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers/"
+        label="View Project"
       %}
-      {% include vimeo-slide.html 
-        id="866120650" 
-        title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" 
+      {% include vimeo-slide.html
+        id="866120650"
+        title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader"
         image="general/drapkin-and-kader.jpg"
+        link="/atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/"
+        label="View Project"
       %}
     {% include vimeo-slider-end.html %}
   </div>
