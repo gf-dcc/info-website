@@ -256,11 +256,12 @@ For any pages that render out body content (eg. publication pages), a few notes:
     </div>
     ```
 
-- **Video Slider** - The *vimeo slider* layout creates a carousel of *vimeo* videos, with a custom display card describing the content.  The slide expects an image, title, and video id, with an optional additional link that can be shown below the slide.
+- **Video Slider** - The *video slider* layout creates a carousel of videos, with a custom display card describing the content.  The slide expects an image, title, and video id, with an optional additional link that can be shown below the slide.
 
     | Parameter     | Description
     |:--------------|:------------|
-    | `id`          | The ID of the Vimeo video
+    | `id`          | The ID of the video (Vimeo or YouTube)
+    | `type`        | One of either 'vimeo' or 'youtube'
     | `title`       | The title of the video
     | `image`       | Image (typically a headshot) to be shown in the slide
     | `link`        | (Optional) Additional link shown below the slide
@@ -268,28 +269,30 @@ For any pages that render out body content (eg. publication pages), a few notes:
     
 
     The slider is comprised of the 3 includes:
-    - vimeo-slider-start.html
-    - vimeo-slider-slide.html (1 or more)
-    - vimeo-slider-end.html
+    - video-slider-start.html
+    - video-slider-slide.html (1 or more)
+    - video-slider-end.html
     
     Usage example:
     ```liquid
-    {% include vimeo-slider-start.html %}
-      {% include vimeo-slide.html 
+    {% include video-slider-start.html %}
+      {% include video-slide.html 
         id="865802218" 
+        type="vimeo"
         title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena" 
         image="people/santagata-sandro.jpg"
         link="/projects/determinants-of-immune-activity-and-molecular-features-in-brca1-2-mutation-carriers"
         label="View Project"
       %}
-      {% include vimeo-slide.html 
+      {% include video-slide.html 
         id="865802218" 
+        type="vimeo"
         title="Breast Cancer Atlas with Dr. Joan Brugge" 
         image="people/brugge-joan.jpg"
         link="/projects/determinants-of-immune-activity-and-molecular-features-in-brca1-2-mutation-carriers"
         label="View Project"
       %}
-    {% include vimeo-slider-end.html %}
+    {% include video-slider-end.html %}
 
 ## Publishing Notes ##
 

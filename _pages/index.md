@@ -24,28 +24,31 @@ The Gray Foundation is transforming how we identify and study the earliest stage
 {:.section-heading.mt-5.mt-lg-7}
 <section class="offset-background">
   <div class="wrapper">
-  {% include vimeo-slider-start.html %}
-    {% include vimeo-slide.html
+  {% include video-slider-start.html %}
+    {% include video-slide.html
       id="866199199"
+      type="vimeo"
       title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena"
       image="people/santagata-sandro.jpg"
       link="/about"
       label="About the Atlas"
     %}
-    {% include vimeo-slide.html
+    {% include video-slide.html
       id="865802218"
+      type="vimeo"
       title="Breast Cancer Atlas with Dr. Joan Brugge"
       image="people/brugge-joan.jpg"
       link="/atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers/"
       label="View Project"
     %}
-    {% include vimeo-slide.html
+    {% include video-slide.html
       id="866120650"
+      type="vimeo"
       title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader"
       image="general/drapkin-and-kader.jpg"
       link="/atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/"
       label="View Project"
     %}
-  {% include vimeo-slider-end.html %}
+  {% include video-slider-end.html %}
   </div>
 </section>
