@@ -1,6 +1,6 @@
 $slider-break: 600px;
 
-.vimeo-slider {
+.video-slider {
     max-width: 600px;
     margin: 0 15px;
     padding: 10px 0;
@@ -64,7 +64,7 @@ $slider-break: 600px;
       }
     }
 }
-.vimeo-slider__slide {
+.video-slider__slide {
     position: relative;
     background: linear-gradient(0, rgba(179,183,186,1) 40px, rgba(71,79,98,1)40px);
     
@@ -75,7 +75,7 @@ $slider-break: 600px;
       min-height: 340px;
     }
 }
-.vimeo-slider__slide-content {
+.video-slider__slide-content {
   padding: 40px;
   color: white;
   min-height: 240px;
@@ -86,7 +86,7 @@ $slider-break: 600px;
     padding-left: 60px;
   }
 }
-.vimeo-slider__slide-logo {
+.video-slider__slide-logo {
   width: 85px;
   margin-bottom: 30px;
 
@@ -94,7 +94,7 @@ $slider-break: 600px;
     margin-bottom: 40px;
   }
 }
-.vimeo-slider__slide-thumb {
+.video-slider__slide-thumb {
   padding: 0 40px 80px;
 
   img {
@@ -156,7 +156,7 @@ $slider-break: 600px;
   }
 }
 
-.vimeo-slider__slide-footer {
+.video-slider__slide-footer {
   text-align: center;
   padding-top: 30px;
 }

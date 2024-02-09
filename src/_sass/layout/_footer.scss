@@ -85,3 +85,13 @@
         text-align: left;
     }
 }
+
+.site-footer__legal {
+    @extend %text-style-3;
+    background: darken($color_dark-blue-gray, 10%);
+    padding: 8px 0;
+
+    a {
+        color: $color_white;
+    }
+}

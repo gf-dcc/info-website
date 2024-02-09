@@ -17,18 +17,22 @@
 
 // Video Card layout
 .video-card {
-    background: #e6eef6;
+    background: $color_light-gray;
     padding: 14px;
     height: 100%;
 }
 .video-card__text {
     margin:.8em auto;
     text-align: center;
+
+    a {
+        color: $color_dark-gray;
+    }
 }
 .video-card__title {
     @include font-size(20px);
     font-weight: 700;
-    color: $color_medium-blue;
+    color: $color_dark-gray;
 }
 .video-card__description {
     max-width:800px;
