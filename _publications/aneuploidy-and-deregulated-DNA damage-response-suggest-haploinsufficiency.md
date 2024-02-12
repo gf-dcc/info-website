@@ -12,7 +12,7 @@ group: publications
 date: 2020-06-22
 
 minerva_link:
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---
