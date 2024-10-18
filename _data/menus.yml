@@ -22,11 +22,3 @@ main:
     section_id: projects
     url: "/projects"
     target: "_self"
-  - name: "Data"
-    section_id: data
-    url: "/data"
-    target: "_self"
-  - name: "Documentation"
-    section_id: Documentation
-    url: "/docs"
-    target: "_self"
