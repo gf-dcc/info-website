@@ -62,7 +62,7 @@ Data Stories are narrated Minerva stories that guide readers through the complex
 
 {%
     assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'kadar-drapkin-ovarian-pilot/'"
+    | where_exp: "item", "item.url contains 'kader-drapkin-ovarian-pilot/'"
     | where_exp: "item", "item.hide != true"
     | where_exp: "item", "item.tags contains 'exploration'"
 %}
@@ -76,7 +76,7 @@ Access the minimally processed, unannotated Minerva stores of additional tissue 
 
 {%
     assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'kadar-drapkin-ovarian-pilot/'"
+    | where_exp: "item", "item.url contains 'kader-drapkin-ovarian-pilot/'"
     | where_exp: "item", "item.hide != true"
     | where_exp: "item", "item.tags contains 'overview'"
 %}
