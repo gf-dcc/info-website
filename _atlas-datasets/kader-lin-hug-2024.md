@@ -12,3 +12,12 @@ data:
     links:
         Preprint: https://doi.org/10.1101/2024.09.25.615007
 ---
+
+{% assign urlParts = page.url | split: '/' %}
+{% assign sectionId = urlParts[-1] %}
+
+{% include atlas-dataset-info.html
+    sectionId=sectionId
+    pubData=page.data
+    thumbnailDir=sectionId %}
+
