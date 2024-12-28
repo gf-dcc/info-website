@@ -8,7 +8,7 @@ data:
     title: Investigating the origins and early diagnosis of ovarian cancer  
     description: "Ovarian cancer presents a more formidable challenge per case than breast cancer, yet it has seen fewer advancements in treatment and diagnosis. In the United States, we observe approximately 20,000 new ovarian cancer diagnoses annually, which lead to 14,000 tragic deaths. This rate contrasts with breast cancer, which records around 240,000 new cases and 42,000 fatalities. Like breast cancer, ovarian cancer is more prevalent in individuals carrying mutations in the BRCA1 or BRCA2 genes (approximately 1.2% without vs. 40% with mutation). Consequently, people with a BRCA1/2 mutation face the agonizing decision of either living with an elevated ovarian cancer risk or undergoing surgery to remove their healthy ovaries and fallopian tubes, a procedure known as risk-reducing salpingo-oophorectomy.
 
-    
+
     The decision to undergo risk reduction surgery is complicated by the fact that ovarian cancer is often diagnosed at late stages, and we have a limited understanding of its origins. However, recent insights have revealed that certain epithelial ovarian cancers may start in the fallopian tube from a pre-cancerous condition known as serous tubal intraepithelial carcinoma (STIC). Our project aims to characterize the biology of STICs, elucidate their clinical significance, and establish precise diagnostic criteria for identifying STICs in surgical samples."
 
 ---
@@ -23,12 +23,15 @@ data:
 
 ### Contents
 * [Project Overview](#project-overview)
+* [Publications](#publications)
 * [Data Stories](#data-stories)
 * [Explore Tissue Images](#explore-tissue-images)
 
 ## Project Overview
-<div class="col-md-6 mb-4">
-  {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" %}
+<div class="row mb-4">
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" %}
+    </div>
 </div>
 
 ### Uncovering the origins of ovarian cancer
@@ -56,6 +59,15 @@ Preliminary data from our cohort suggest that immune surveillance may break down
 <br>
 Our long-term goal for this project is to extend the characterization of incidental precancers on a larger scale, offering a deeper understanding of the biology of STICs in surgical samples. Given that STICs are a well-known precursor to eventual peritoneal cancer, we intend to stratify the risk associated with STIC lesions for clinical decision-making. Additionally, our analysis of a substantial patient cohort has the potential to open avenues for preventive measures for high-risk patients in the future.
 </details>
+---
+## Publications
+{% comment %}
+  'publicationList' should be a comma-delineated string of publication file names
+{% endcomment %}
+{% assign publicationList = 'multimodal-spatial-profiling-reveals-immune-suppression-and-microenvironment-remodeling-fallopian-tube-precursors-high-grade-serous-ovarian-carcinoma.md' %}
+
+{% include pub-list.html list=publicationList %}
+---
 
 ## Data Stories
 Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints.
@@ -64,7 +76,7 @@ Data Stories are narrated Minerva stories that guide readers through the complex
     assign overviews = site.data-cards
     | where_exp: "item", "item.url contains 'kader-drapkin-ovarian-pilot/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'exploration'"
+    | where_exp: "item", "item.tags contains 'narrated'"
 %}
 
 {% if overviews.size > 0 %}
@@ -76,9 +88,9 @@ Access the minimally processed, unannotated Minerva stores of additional tissue 
 
 {%
     assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'kader-drapkin-ovarian-pilot/'"
+    | where_exp: "item", "item.url contains 'kader-lin-hug-2024/'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'overview'"
+    | where_exp: "item", "item.tags contains 'curated'"
 %}
 
 {% if overviews.size > 0 %}
