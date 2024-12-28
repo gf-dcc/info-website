@@ -40,6 +40,13 @@
                     </a>
                 </li>
             {%- endif -%}
+            {%- if include.content.cbioportal_link -%}
+                <li class="pub-listing__link">
+                    <a href="{{ include.content.cbioportal_link }}" target="_blank">
+                        cBioPortal
+                    </a>
+                </li>
+            {%- endif -%}
             {%- if include.content.pubmed_link -%}
                 <li class="pub-listing__link">
                     <a href="{{ include.content.pubmed_link }}" target="_blank">
