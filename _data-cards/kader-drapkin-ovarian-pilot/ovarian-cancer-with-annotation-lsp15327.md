@@ -10,6 +10,6 @@ tags:
     - Gray
     - BRCA
     - STIC
-    - exploration
+    - narrated
     - CyCIF
 ---
