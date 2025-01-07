@@ -1,11 +1,11 @@
 publications_software:
-  - title: "Investigating the origins and early diagnosis of ovarian cancer."
-    author: "Drapkin"
-    year: "(In Progress)"
-    publication:
+  - title: "Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma."
+    author: "Kader et al"
+    year: "2024"
+    publication: "Cancer Discovery"
     image: "general/home_header-image-01.jpg"
-    link: "atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer"
-    label: Project  # [Publication|Software|Method]
+    link: "atlas-datasets/kader-lin-hug-2024"
+    label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
     label2: Video Overview
     link2: "atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/#project-overview"

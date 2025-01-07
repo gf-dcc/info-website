@@ -5,7 +5,7 @@ publication: Cancer Discovery
 publication_link: https://doi.org/10.1158/2159-8290.CD-24-1366
 pmcid:
 
-image: publications/LSP16159.png
+image: "general/home_header-image-01.jpg"
 
 group: publications
 
