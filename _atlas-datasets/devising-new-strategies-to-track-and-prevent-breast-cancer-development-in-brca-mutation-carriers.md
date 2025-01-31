@@ -20,8 +20,7 @@ data:
 
 ## Contents
   * [Project Overview](#project-overview)
-  * [Team](#team)
-  * [Research Questions](#research-questions)
+  * [Publications](#publications)
   * [Data Stories](#data-stories)
   * [Explore Tissue Images](#explore-tissue-images)
 
@@ -32,16 +31,13 @@ data:
   </div>
 </div>
 
-### Team
-  - Project Lead: Joan Brugge, PhD
-  - Team: Aparicio, Dillon, Lin, Santagata, Garber, Venkitaraman
+## Publications
+{% comment %}
+  'publicationList' should be a comma-delineated string of publication file names
+{% endcomment %}
+{% assign publicationList = 'a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.md' %}
 
-### Research Questions
-  - How do basal and luminal breast cells contribute to BRCA-related cancers?
-  - How do BRCA tumor cells evolve?
-  - What are the molecular defects during tumor evolution?
-  - How do we detection cancer evolution in carriers?
-  - How do we intercept and eradicate tumor development?
+{% include pub-list.html list=publicationList %}
 
 ### Data Stories
 Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
