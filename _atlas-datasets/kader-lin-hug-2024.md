@@ -18,7 +18,7 @@ data:
     pubData=page.data
     thumbnailDir=sectionId %}
 
-<a href="https://www.cbioportal.org/study/summary?id=ovary_geomx_gray_foundation_2024" class="button">Data</a>
+<a href="https://www.cbioportal.org/study/summary?id=ovary_geomx_gray_foundation_2024" class="button">cBioPortal</a>
 <a href="https://doi.org/10.1158/2159-8290.CD-24-1366" class="button">Publication</a>
 <a href="https://doi.org/10.1101/2024.09.25.615007" class="button">Preprint</a>
 
@@ -31,12 +31,12 @@ data:
 ### Abstract
   High-Grade Serous Ovarian Cancer (HGSOC) originates from fallopian tube (FT) precursors. However, the molecular changes that occur as precancerous lesions progress to HGSOC are not well understood. To address this, we integrated high-plex imaging and spatial transcriptomics to analyze human tissue samples at different stages of HGSOC development, including p53 signatures, serous tubal intraepithelial carcinomas (STIC), and invasive HGSOC. Our findings reveal immune modulating mechanisms within precursor epithelium, characterized by chromosomal instability, persistent interferon (IFN) signaling, and dysregulated innate and adaptive immunity. FT precursors display elevated expression of MHC-class I, including HLA-E, and IFN-stimulated genes, typically linked to later-stage tumorigenesis. These molecular alterations coincide with progressive shifts in the tumor microenvironment, transitioning from immune surveillance in early STICs to immune suppression in advanced STICs and cancer. These insights identify potential biomarkers and therapeutic targets for HGSOC interception and clarify the molecular transitions from precancer to cancer.
 
-### Narrated Minerva Stories
-Narrated stories use multi-step narrations and annotations to walk a viewer through key features of the data. Narrated stories distill the multidisciplinary knowledge encompassed by each dataset into a single product that grounds the scientific analyses in the underlying data and metadata. Click the Minerva story icon for an interactive view of the full-resolution images.
+###  Data Stories
+  Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
 
 {%
     assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'kader-drapkin-ovarian-pilot/'"
+    | where_exp: "item", "item.url contains 'kader-drapkin-ovarian-pilot'"
     | where_exp: "item", "item.hide != true"
     | where_exp: "item", "item.tags contains 'narrated'"
 %}
@@ -44,6 +44,7 @@ Narrated stories use multi-step narrations and annotations to walk a viewer thro
 {% if overviews.size > 0 %}
   {% include cards.html cards=overviews %}
 {% endif %}
+
 
 ### Curated Minerva Stories
 Curated stories provide access to images that have undergone a quality control step to remove failed markers, ensure appropriate channel intensity settings, and provide metadata about the underlying sample and image. Click the Minerva story icon for an interactive view of the full-resolution images.
