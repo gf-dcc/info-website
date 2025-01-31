@@ -1,4 +1,12 @@
 publications_software:
+  - title: "Understanding the earliest stages of ovarian cancer."
+    author: "HMS News"
+    year: "2025"
+    publication: "LinkedIn"
+    image: "general/kader-lin-hug-2024-linkedin1.jfif"
+    link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma."
     author: "Kader et al"
     year: "2024"
@@ -19,14 +27,6 @@ publications_software:
     target: "_blank"  # [_self|_blank]
     label2: Video Overview
     link2: "atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers/#project-overview"
-  - title: "An atlas of substrate specificities for the human serine/threonine kinome."
-    author: "Johnson et al"
-    year: 2023
-    publication: "Nature"
-    image: "publications/an-atlas-of-substrate-specificities-for-the-human-serinethreonine-kinome.jpg"
-    link: https://doi.org/10.1038/s41586-022-05575-3
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
   - title: "Aneuploidy and a deregulated DNA damage response suggest haploinsufficiency in breast tissues of BRCA2 mutation carriers."
     author: "Karaayvaz-Yildirim et al."
     year: 2020
