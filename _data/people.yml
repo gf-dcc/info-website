@@ -6,5 +6,5 @@ groups:
     name: Scientific Directors
     id: scientific-directors
   - key: dcc
-    name: Data Coordinating Center
-    id: data-coordinating-center
+    name: Atlas Informatics Team
+    id: atlas-informatics-team
