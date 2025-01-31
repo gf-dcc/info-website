@@ -11,5 +11,5 @@ photo: people/brugge-joan.jpg
 
 group: principals
 
-weight: 10
+weight: 1
 ---
