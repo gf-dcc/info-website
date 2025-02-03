@@ -43,7 +43,7 @@ layout: default
         {% assign cta_label2 = 'View all projects' %}
 
         {% include cards.html
-            heading='Publications & Projects' 
+            heading='Publications & Projects'
             cards=cards
             card-type='news-card'
             card-color='dark-blue'
@@ -54,6 +54,17 @@ layout: default
             extra-margins=true
         %}
 
+        {% assign cards = site.data.announcements.news_press %}
+
+        {% include cards.html
+            heading='News'
+            cards=cards
+            card-type='news-card'
+            card-color='light-blue'
+            cta-url=cta_url
+            cta-label=cta_label
+            extra-margins=true
+        %}
 
         {% assign cta_url = 'data' | relative_url %}
         {% assign cta_label = 'View all data' %}

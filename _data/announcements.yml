@@ -1,32 +1,32 @@
 publications_software:
-  - title: "Understanding the earliest stages of ovarian cancer."
-    author: "HMS News"
-    year: "2025"
-    publication: "LinkedIn"
-    image: "general/kader-lin-hug-2024-linkedin1.jfif"
-    link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
-    label: News  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
   - title: "Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma."
     author: "Kader et al"
-    year: "2024"
+    year: 2024
     publication: "Cancer Discovery"
     image: "general/home_header-image-01.jpg"
+    type: publication
     link: "atlas-datasets/kader-lin-hug-2024"
+    label: Explore Data  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    link: "https://doi.org/10.1158/2159-8290.CD-24-1366"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-    label2: Video Overview
-    link2: "atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/#project-overview"
   - title: "A human breast atlas integrating single-cell proteomics and transcriptomics."
     author: "Gray et al"
     year: 2022
     publication: Dev Cell
     image: "publications/a-human-breast-atlas-integrating.jpg"
+    type: publication
     link: "https://gf-dcc.github.io/info-website/atlas-datasets/gray-rosenbluth-selfors-2022/"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
+  - title: "Investigating the origins and early diagnosis of ovarian cancer."
+    image: "data-cards/LSP19416-Kader-2024.png"
+    link: "atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/"
+    label: Project  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
     label2: Video Overview
-    link2: "atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers/#project-overview"
+    link2: "atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/#project-overview"
   - title: "Aneuploidy and a deregulated DNA damage response suggest haploinsufficiency in breast tissues of BRCA2 mutation carriers."
     author: "Karaayvaz-Yildirim et al."
     year: 2020
@@ -36,38 +36,12 @@ publications_software:
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
 news_press:
-  - title: "New Therapeutic Strategy Identified for Triple Negative Breast Cancer"
-    author:
-    year: 2024, October 9
-    publication: BWH Research Brief
-    type: news  # [tools|publication|method|software
-    image: "publications/cichowski-santagata-sorger-2024.PNG"
-    link: https://www.brighamandwomens.org/about-bwh/newsroom/research-briefs-detail?id=4821
-    label: News  # [News|Press Release]
-    target: "_blank"
-  - title: "A New Tool for Diagnosing Cancer"
-    author: "Caruso, C."
-    year: 2023, June 22
-    publication: "HMS News"
+  - title: "Understanding the earliest stages of ovarian cancer."
+    author: "HMS News"
+    year: "2025"
+    publication: "LinkedIn"
     type: news  # [tools|publication|method|software]
-    image: "publications/A-new-tool-for-diagnosing-cancer.jpg"
-    link: "https://hms.harvard.edu/news/new-tool-diagnosing-cancer"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
-  - title: "New 3D Atlas of Colorectal Cancer Promises Improved Diagnosis, Treatment"
-    author: "Tabak, L."
-    year: 2023, January 31
-    publication: "NIH Director's Blog"
-    type: news  # [tools|publication|method|software]
-    image: "publications/New-3D-Atlas-NIH-directors-blog.png"
-    link: "https://directorsblog.nih.gov/2023/01/31/new-3d-atlas-of-colorectal-cancer-promises-improved-diagnosis-treatment/"
-    label: News  # [News|Press Release]
-    target: "_blank"  # [_self|_blank]
-  - title: "Getting Under Our Skin"
-    author: "Caruso, C."
-    year: 2022, April 14
-    publication: "Harvard News"
-    image: "news/under-our-skin.JPG"
-    link: "https://hms.harvard.edu/news/getting-under-our-skin"
-    label: News  # [News|Press Release]
+    image: "general/kader-lin-hug-2024-linkedin1.jfif"
+    link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
+    label: News  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
