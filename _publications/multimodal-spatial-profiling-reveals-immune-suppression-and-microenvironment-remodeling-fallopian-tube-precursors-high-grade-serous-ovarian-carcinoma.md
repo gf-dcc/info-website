@@ -1,7 +1,7 @@
 ---
 title: 'Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma'
 contributors: 'Kader T, Lin J-R, Hug C, Coy S, Chen Y-A, de Bruijn I, Shih N, Jung, E, ... Santagata S'
-publication: Cancer Discovery
+publication: Cancer Discovery. 2024 Dec 20. 
 publication_link: https://doi.org/10.1158/2159-8290.CD-24-1366
 pmcid: 39704522
 
