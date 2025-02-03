@@ -43,7 +43,7 @@ layout: default
         {% assign cta_label2 = 'View all projects' %}
 
         {% include cards.html
-            heading='Publications & Projects' 
+            heading='Publications & Projects'
             cards=cards
             card-type='news-card'
             card-color='dark-blue'
@@ -54,15 +54,28 @@ layout: default
             extra-margins=true
         %}
 
+        {% assign cards = site.data.announcements.news_press %}
 
-        {% assign cta_url = 'data' | relative_url %}
-        {% assign cta_label = 'View all data' %}
+        {% include cards.html
+            heading='News'
+            cards=cards
+            card-type='news-card'
+            card-color='light-blue'
+            extra-margins=true
+        %}
+
+        {% assign cta_url = 'atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers' | relative_url %}
+        {% assign cta_label = 'View Breast data' %}
+        {% assign cta_url2 = 'atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/' | relative_url %}
+        {% assign cta_label2 = 'View Ovarian data' %}
 
         {% include cards.html
             heading='Data'
             featured=true
             cta-url=cta_url
             cta-label=cta_label
+            cta-url2=cta_url2
+            cta-label2=cta_label2
             extra-margins=true
         %}
 

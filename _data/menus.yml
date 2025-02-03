@@ -7,13 +7,13 @@ main:
     section_id: people
     url: "/people"
     target: "_self"
-    children: 
+    children:
     - name: "Project Leads"
       url: "/people#project-leads"
     - name: "Scientific Directors"
       url: "/people#scientific-directors"
-    - name: "Data Coordinating Center"
-      url: "/people#data-coordinating-center"
+    - name: "Atlas Informatics Team"
+      url: "/people#atlas-informatics-team"
   - name: "Publications"
     section_id: publications
     url: "/publications"
