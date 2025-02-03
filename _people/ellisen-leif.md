@@ -5,7 +5,7 @@ positions:
   - Massachusetts General Hospital Cancer Center
 associations:
   - "Lab: [Ellisen Lab](https://www.massgeneral.org/doctors/17887/leif-ellisen)"
-  - "Project: [Dissecting early pathogenesis of BRCA1/2-associated cancer for risk prediction and prevention](projects#dissecting-early-pathogenesis-of-brca1-2-associated-cancer-for-risk-prediction-and-prevention)"
+  - "Project: [Devising new strategies to track and prevent breast cancer development in BRCA mutation carriers](projects#devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers)"
 
 photo: people/ellisen-leif.jpg
 

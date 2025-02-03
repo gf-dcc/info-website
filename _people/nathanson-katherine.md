@@ -4,7 +4,7 @@ positions:
   - University of Pennsylvania
 associations:
   - "Lab: [Nathason Lab](https://www.med.upenn.edu/apps/faculty/index.php/g275/p9542)"
-  - "Project: [Determinants of immune activity and molecular features in BRCA1/2 mutation carriers](projects#determinants-of-immune-activity-and-molecular-features-in-brca1-2-mutation-carriers)"
+  - "Project: [Devising new strategies to track and prevent breast cancer development in BRCA mutation carriers](projects#devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers)"
 
 photo: people/nathanson-katherine.jpg
 
