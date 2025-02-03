@@ -31,20 +31,26 @@ data:
 ### Abstract
   High-Grade Serous Ovarian Cancer (HGSOC) originates from fallopian tube (FT) precursors. However, the molecular changes that occur as precancerous lesions progress to HGSOC are not well understood. To address this, we integrated high-plex imaging and spatial transcriptomics to analyze human tissue samples at different stages of HGSOC development, including p53 signatures, serous tubal intraepithelial carcinomas (STIC), and invasive HGSOC. Our findings reveal immune modulating mechanisms within precursor epithelium, characterized by chromosomal instability, persistent interferon (IFN) signaling, and dysregulated innate and adaptive immunity. FT precursors display elevated expression of MHC-class I, including HLA-E, and IFN-stimulated genes, typically linked to later-stage tumorigenesis. These molecular alterations coincide with progressive shifts in the tumor microenvironment, transitioning from immune surveillance in early STICs to immune suppression in advanced STICs and cancer. These insights identify potential biomarkers and therapeutic targets for HGSOC interception and clarify the molecular transitions from precancer to cancer.
 
-###  Data Stories
-  Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
+### Data Stories
+Data Stories are narrated Minerva stories that guide readers through the complexities of a large image dataset via a series of progressive narrated waypoints.
 
 {%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'kader-drapkin-ovarian-pilot'"
+    assign stories = site.data-cards
+    | where_exp: "item", "item.tags contains 'ovarian'"
     | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'narrated'"
 %}
 
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
+{% assign dataCardArray = '' | split: '' %}
+{% for n in stories %}
+  {% if n.tags contains 'narrated' %}
+    {% assign dataCardArray = dataCardArray | push: n %}
+  {% endif %}
+{% endfor %}
 
+{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
+{% if dataCardArraySort.size > 0 %}
+  {% include cards.html cards=dataCardArraySort %}
+{% endif %}
 
 ### Curated Minerva Stories
 Curated stories provide access to images that have undergone a quality control step to remove failed markers, ensure appropriate channel intensity settings, and provide metadata about the underlying sample and image. Click the Minerva story icon for an interactive view of the full-resolution images.
