@@ -5,7 +5,9 @@ team: Drapkin, Drescher, Santagata
 dataset_link: /atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer
 weight: 20
 ---
-The goal of this project is to generate genomic, transcriptomic, and imaging data on early BRCA ovarian lesions to be incorporated into the Gray BRCA Precancer Atlas.
+Ovarian cancer presents a more formidable challenge per case than breast cancer, yet it has seen fewer advancements in treatment and diagnosis. In the United States, we observe approximately 20,000 new ovarian cancer diagnoses annually, which lead to 14,000 tragic deaths. This rate contrasts with breast cancer, which records around 240,000 new cases and 42,000 fatalities. Like breast cancer, ovarian cancer is more prevalent in individuals carrying mutations in the BRCA1 or BRCA2 genes (approximately 1.2% without vs. 40% with mutation). Consequently, people with a BRCA1/2 mutation face the agonizing decision of either living with an elevated ovarian cancer risk or undergoing surgery to remove their healthy ovaries and fallopian tubes, a procedure known as risk-reducing salpingo-oophorectomy.
+
+The decision to undergo risk reduction surgery is complicated by the fact that ovarian cancer is often diagnosed at late stages, and we have a limited understanding of its origins. However, recent insights have revealed that certain epithelial ovarian cancers may start in the fallopian tube from a pre-cancerous condition known as serous tubal intraepithelial carcinoma (STIC). Our project aims to characterize the biology of STICs, elucidate their clinical significance, and establish precise diagnostic criteria for identifying STICs in surgical samples. 
 </br>
 </br>
 <b>Uncovering the origins of ovarian cancer</b>
