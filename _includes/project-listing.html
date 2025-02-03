@@ -36,7 +36,7 @@
     {%- if include.content.related_publications -%}
         <h4 class="project-listing__publications-heading">Related Publications</h4>
     {%- endif -%}
-    
+
     {%- if include.content.graphics and include.content.related_publications -%}
         <div class="project-listing__columns">
     {%- endif -%}
@@ -51,16 +51,16 @@
                         <a href="#{{ imgId }}" data-lity>
 
                             {% include graphic-thumb.html content=item %}
-                            
+
                             <span class="project-listing__thumb-label">Click to Enlarge</span>
                         </a>
                         <div id="{{ imgId }}" class="lity-hide modal">
-                                
+
                             {% include graphic.html content=item %}
-                            
+
                         </div>
                     </div>
-                    
+
                 {%- endfor -%}
             </div>
         {%- endif -%}
@@ -74,7 +74,7 @@
                 {%- endfor -%}
             </ul>
         {%- endif -%}
-            
+
     {%- if include.content.graphics and include.content.related_publications -%}
         </div>
     {%- endif -%}
@@ -83,7 +83,7 @@
         {%- if include.content.dataset_link -%}
             <li class="project-listing__link">
                 <a href="{{ include.content.dataset_link | relative_url }}" target="_self">
-                    Atlas Dataset
+                    Project Details
                 </a>
             </li>
         {%- endif -%}
