@@ -1,11 +1,7 @@
 ---
 title: Investigating the origins and early diagnosis of ovarian cancer  
 project_lead: Ronny Drapkin, MD, PhD and Charles Drescher, MD
-graphics:
-  - H2Bub1-loss-early-contributor-clear-cell-ovarian-progression
-related_publications:
-  - "Kader T, Lin J-R, Hug C, Coy S, Chen Y-A, de Bruijn I, Shih N, Jung, E, ... Santagata S. Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma. Cancer Discovery (December 2024). doi: [https://doi.org/10.1158/2159-8290.CD-24-1366](https://doi.org/10.1158/2159-8290.CD-24-1366). PMID: [39704522](https://pubmed.ncbi.nlm.nih.gov/39704522/)."
-  - "Ferrari AJ, Rawat P, Rendulich HS, Annapragada AV, Kinose Y, Zhang X, Devins K, Budina A, ... Drapkin R. H2Bub1 loss is an early contributor to clear cell ovarian cancer progression. JCI Insight 8 (12): e164995. doi: [10.1172/jci.insight.164995](https://doi.org/10.1172/jci.insight.164995). PMID: [37345659](https://pubmed.ncbi.nlm.nih.gov/37345659). PMCID: PMC10371241."
+team: Drapkin, Drescher, Santagata
 dataset_link: /atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer
 weight: 20
 ---
