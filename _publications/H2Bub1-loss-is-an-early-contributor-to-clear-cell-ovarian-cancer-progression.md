@@ -13,6 +13,7 @@ date: 2023-06-22
 
 minerva_link:
 publication_link: https://doi.org/10.1172/jci.insight.164995
+pubmed_link: https://pubmed.ncbi.nlm.nih.gov/37345659/
 preprint_link:
 pdf_link:
 show_page_link: false
