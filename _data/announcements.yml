@@ -3,7 +3,7 @@ publications_software:
     author: "Kader et al"
     year: 2024
     publication: "Cancer Discovery"
-    image: "general/home_header-image-01.jpg"
+    image: "publications/kader-lin-hug-2024.jpg"
     type: publication
     link: "atlas-datasets/kader-lin-hug-2024"
     label: Explore Data  # [Publication|Software|Method]
@@ -19,7 +19,7 @@ publications_software:
     link: https://doi.org/10.1038/s41588-024-01988-0
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
-  - title: 'Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma'
+  - title: 'Brca1 haploinsufficiency promotes early tumor onset and epigenetic alterations in a mouse model of hereditary breast cancer'
     author: "Li et al"
     year: 2024
     publication: Nature Genetics
