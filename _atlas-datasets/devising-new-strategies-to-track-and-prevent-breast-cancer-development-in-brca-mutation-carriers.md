@@ -35,7 +35,7 @@ data:
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names
 {% endcomment %}
-{% assign publicationList = 'a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics,luminal-breast-epithelial-cells-BRCA1-BRCA2-mutation-carriers-noncarriers-harbor-common-breast-cancer-copy-number-alterations' %}
+{% assign publicationList = 'luminal-breast-epithelial-cells-BRCA1-BRCA2-mutation-carriers-noncarriers-harbor-common-breast-cancer-copy-number-alterations,brca1-haploinsufficiency-promotes-early-tumor-onset-and-epigenetic-alterations-mouse-model-hereditary-breast-cancer,a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics' %}
 
 {% include pub-list.html list=publicationList %}
 

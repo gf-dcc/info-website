@@ -8,8 +8,8 @@ publications_software:
     link: "atlas-datasets/kader-lin-hug-2024"
     label: Explore Data  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-    link: "https://doi.org/10.1158/2159-8290.CD-24-1366"
-    label: Publication  # [Publication|Software|Method]
+    link2: "https://doi.org/10.1158/2159-8290.CD-24-1366"
+    label2: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
   - title: "Luminal breast epithelial cells of BRCA1 or BRCA2 mutation carriers and noncarriers harbor common breast cancer copy number alterations."
     author: "Williams et al."
@@ -19,6 +19,15 @@ publications_software:
     link: https://doi.org/10.1038/s41588-024-01988-0
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
+  - title: 'Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma'
+    author: "Li et al"
+    year: 2024
+    publication: Nature Genetics
+    image: "publications/brca1-haploinsufficiency-promotes-early-tumor-onset-and-epigenetic-alterations-mouse-model-hereditary-breast-cancer.jpg"
+    type: publication
+    link: "https://doi.org/10.1038/s41588-024-01958-6"
+    label: Publication  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: 'H2Bub1 loss is an early contributor to clear cell ovarian cancer progression.'
     author: "Ferrari et al"
     year: 2023
@@ -28,15 +37,6 @@ publications_software:
     link: https://insight.jci.org/articles/view/164995
     label: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
-  - title: "A human breast atlas integrating single-cell proteomics and transcriptomics."
-    author: "Gray et al"
-    year: 2022
-    publication: Dev Cell
-    image: "publications/a-human-breast-atlas-integrating.jpg"
-    type: publication
-    link: "https://gf-dcc.github.io/info-website/atlas-datasets/gray-rosenbluth-selfors-2022/"
-    label: Publication  # [Publication|Software|Method]
-    target: "_blank"  # [_self|_blank]
 
 news_press:
   - title: "Understanding the earliest stages of ovarian cancer."
