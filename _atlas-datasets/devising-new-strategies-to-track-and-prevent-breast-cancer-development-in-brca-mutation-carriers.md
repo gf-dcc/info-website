@@ -35,7 +35,7 @@ data:
 {% comment %}
   'publicationList' should be a comma-delineated string of publication file names
 {% endcomment %}
-{% assign publicationList = 'a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics.md' %}
+{% assign publicationList = 'a-human-breast-atlas-integrating-single-cell-proteomics-and-transcriptomics,luminal-breast-epithelial-cells-BRCA1-BRCA2-mutation-carriers-noncarriers-harbor-common-breast-cancer-copy-number-alterations' %}
 
 {% include pub-list.html list=publicationList %}
 

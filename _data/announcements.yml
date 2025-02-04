@@ -1,5 +1,5 @@
 publications_software:
-  - title: "Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma."
+  - title: "Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma."
     author: "Kader et al"
     year: 2024
     publication: "Cancer Discovery"
@@ -11,12 +11,19 @@ publications_software:
     link: "https://doi.org/10.1158/2159-8290.CD-24-1366"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
+  - title: "Luminal breast epithelial cells of BRCA1 or BRCA2 mutation carriers and noncarriers harbor common breast cancer copy number alterations."
+    author: "Williams et al."
+    year: 2024
+    publication: "Nature Genetics"
+    image: "publications/luminal-breast-epithelial-cells-BRCA1-BRCA2-mutation-carriers-noncarriers-harbor-common-breast-cancer-copy-number-alterations.jpg"
+    link: https://doi.org/10.1038/s41588-024-01988-0
+    label: Publication  # [Publication|Software|Method]
+    target: "_self"  # [_self|_blank]
   - title: 'H2Bub1 loss is an early contributor to clear cell ovarian cancer progression.'
     author: "Ferrari et al"
     year: 2023
     publication: JCI Insight
     contributors: 'Ferrari AJ, Rawat P, Rendulich HS, Annapragada AV, Kinose Y, Zhang X, Devins K, Budina A, Scharpf RB, Mitchell MA, Tanyi JL, Morgan MA, Schwartz LE, Soong TR, Velculescu VE, Drapkin R.'
-    publication: JCI Insight.
     image: publications/H2Bub1-loss-clear-cell-ovarian-cancer-progression.jpg
     link: https://insight.jci.org/articles/view/164995
     label: Publication  # [Publication|Software|Method]
@@ -30,14 +37,7 @@ publications_software:
     link: "https://gf-dcc.github.io/info-website/atlas-datasets/gray-rosenbluth-selfors-2022/"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-  - title: "Aneuploidy and a deregulated DNA damage response suggest haploinsufficiency in breast tissues of BRCA2 mutation carriers."
-    author: "Karaayvaz-Yildirim et al."
-    year: 2020
-    publication: "Science Advances"
-    image: "publications/aneuploidy-and-deregulated-DNA damage-response-suggest-haploinsufficiency.jpeg"
-    link: https://doi.org/10.1126/sciadv.aay2611
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
+
 news_press:
   - title: "Understanding the earliest stages of ovarian cancer."
     author: "HMS News"
