@@ -5,7 +5,7 @@ publication: Cancer Discovery. 2024 Dec 20.
 publication_link: https://doi.org/10.1158/2159-8290.CD-24-1366
 pmcid: 39704522
 
-image: "general/home_header-image-01.jpg"
+image: "publications/kader-lin-hug-2024.jpg"
 
 group: publications
 
