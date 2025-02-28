@@ -1,5 +1,5 @@
 ---
-title: Single-Cell RNA Sequencing of Normal Breast Tissues (Broad SCP2910)
+title: FLEX single cell RNA sequencing of normal breast tissues  (Broad SCP2910)
 image: data-cards/gray-rosenbluth-selfors-single-cell-umap.jpg
 date: 2010-03-28
 minerva_link:
@@ -13,5 +13,6 @@ tags:
     - Overview
     - Breast
     - Broad
+    - FLEX
 
 ---

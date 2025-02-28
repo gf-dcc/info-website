@@ -23,7 +23,7 @@ data:
     thumbnailDir=sectionId %}
 
 ### Explore Tissue Images
-Access the minimally processed, unannotated Level 2 images associated with this publication. Click any of the following thumbnail images for an interactive view of the full-resolution images.
+Access the minimally processed, unannotated Level 2 Orion and H&E images. Click any of the following thumbnail images for an interactive view of the full-resolution images.
 
 {%
     assign stories = site.data-cards
