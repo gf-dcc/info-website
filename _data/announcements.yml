@@ -48,3 +48,9 @@ news_press:
     link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
     label: News  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
+  - title: "Study shows how a single defective BRCA1 gene accelerates cancer development"
+    year: 2024
+    publication: News Medical Life Sciences
+    type: news
+    image: "publications/brca1-haploinsufficiency-promotes-early-tumor-onset-and-epigenetic-alterations-mouse-model-hereditary-breast-cancer.jpg"
+    link: "https://www.news-medical.net/news/20241111/Study-shows-how-a-single-defective-BRCA1-gene-accelerates-cancer-development.aspx"
