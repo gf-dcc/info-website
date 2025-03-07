@@ -12,7 +12,7 @@ group: publications
 date: 2024-11-24
 
 minerva_link:
-dataset_link:
+dataset_link: /atlas-datasets/williams-oliphant-2024
 preprint_link:
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/39567747/
 pdf_link:
