@@ -1,6 +1,6 @@
 ---
 title: 'H2Bub1 loss is an early contributor to clear cell ovarian cancer progression.'
-contributors: 'Ferrari AJ, Rawat P, Rendulich HS, Annapragada AV, Kinose Y, Zhang X, Devins K, Budina A, Scharpf RB, Mitchell MA, Tanyi JL, Morgan MA, Schwartz LE, Soong TR, Velculescu VE, Drapkin R.'
+contributors: 'Ferrari AJ, Rawat P, Rendulich HS, Annapragada AV, Kinose Y, Zhang X, Devins K, Budina A, ... Drapkin R.'
 publication: JCI Insight. 2023 Jun 22;8(12):e164995.
 publication_link: https://insight.jci.org/articles/view/164995
 pmcid: 'PMC10371241'
