@@ -1,7 +1,7 @@
 ---
 title: 'Brca1 haploinsufficiency promotes early tumor onset and epigenetic alterations in a mouse model of hereditary breast cancer'
 contributors: 'Li CM, Cordes A, Oliphant MUJ, Quinn SA, Thomas M, Selfors LM, Silvestri F, Girnius N, ... Brugge JS.'
-publication: Nature Genetics. 56(12):2763-277
+publication: Nature Genetics. 2024 Nov 11; 56(12):2763-277
 publication_link: https://doi.org/10.1038/s41588-024-01958-6
 pmcid:
 
