@@ -8,5 +8,5 @@ tags:
   - Gray
   - BRCA
   - CyCIF
-featured: true
+featured: false
 ---
