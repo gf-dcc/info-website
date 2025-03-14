@@ -16,8 +16,11 @@ publications_software:
     year: 2024
     publication: "Nature Genetics"
     image: "publications/luminal-breast-epithelial-cells-BRCA1-BRCA2-mutation-carriers-noncarriers-harbor-common-breast-cancer-copy-number-alterations.jpg"
-    link: https://doi.org/10.1038/s41588-024-01988-0
-    label: Publication  # [Publication|Software|Method]
+    link: /atlas-datasets/williams-oliphant-2024
+    label: Explore Data  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
+    link2: https://doi.org/10.1038/s41588-024-01988-0
+    label2: Publication  # [Publication|Software|Method]
     target: "_self"  # [_self|_blank]
   - title: 'Brca1 haploinsufficiency promotes early tumor onset and epigenetic alterations in a mouse model of hereditary breast cancer'
     author: "Li et al"
@@ -48,9 +51,11 @@ news_press:
     link: "https://www.linkedin.com/posts/harvard-medical-school_a-new-study-is-advancing-efforts-to-understand-activity-7285042260637855744-Vsvi/"
     label: News  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-  - title: "Study shows how a single defective BRCA1 gene accelerates cancer development"
-    year: 2024
-    publication: News Medical Life Sciences
+  - title: "Study shows how a single defective BRCA1 gene accelerates cancer development."
+    year: "2024"
+    publication: "News Medical Life Sciences"
     type: news
     image: "publications/brca1-haploinsufficiency-promotes-early-tumor-onset-and-epigenetic-alterations-mouse-model-hereditary-breast-cancer.jpg"
     link: "https://www.news-medical.net/news/20241111/Study-shows-how-a-single-defective-BRCA1-gene-accelerates-cancer-development.aspx"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]

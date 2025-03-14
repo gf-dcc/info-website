@@ -43,10 +43,11 @@ data:
 Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
 
 {%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
+    assign overviews = site.data-cards | sort: 'date' | reverse
     | where_exp: "item", "item.hide != true"
     | where_exp: "item", "item.tags contains 'Overview'"
+    | where_exp: "item", "item.tags contains 'Breast'"
+    | where_exp: "item", "item.tags contains 'Published'"
 %}
 
 {% if overviews.size > 0 %}
@@ -58,7 +59,7 @@ Access the minimally processed, unannotated Level 2 images associated with this 
 
 {%
     assign stories = site.data-cards
-    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022/'"
+    | where_exp: "item", "item.url contains 'gray-rosenbluth-selfers-2022'"
     | where_exp: "item", "item.hide != true"
     | where_exp: "item", "item.tags contains 'CyCIF'"
 %}
