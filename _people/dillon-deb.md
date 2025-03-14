@@ -1,13 +1,12 @@
 ---
-name: Leif Ellisen, MD, PhD
+name: Deborah Dillon, MD
 positions:
+  - Dana-Farber Cancer Institute
   - Harvard Medical School
-  - Massachusetts General Hospital Cancer Center
 associations:
-  - "Lab: [Ellisen Lab](https://ellisenlab.com/)"
   - "Project: [Devising new strategies to track and prevent breast cancer development in BRCA mutation carriers](projects#devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers)"
 
-photo: people/ellisen-leif.jpg
+photo: people/dillon-deb.jpg
 
 group: principals
 
