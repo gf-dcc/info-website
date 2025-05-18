@@ -1,5 +1,5 @@
 ---
-title: DLP+ Single-Cell Whole Genome Sequencing of Luminal Breast Epithelial Cells from Wildtype and BRCA Mutation Carriers
+title: DLP+ Single-Cell Whole Genome Sequencing of Luminal Breast Epithelial Cells from Wildtype and BRCA Mutation Carriers (Raw Sequencing Data)
 image: data-cards/williams-oliphant-2024-EGA.jpg
 date: 2024-11-24
 minerva_link:
