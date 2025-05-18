@@ -24,11 +24,8 @@ data:
 <a href="https://doi.org/10.1038/s41588-024-01988-0" class="button">Publication</a>
 <a href="https://ega-archive.org/studies/EGAS00001007716" class="button">EGA</a>
 
-## Contents
-* [Data Access](#data-access)
-
 ### Data Access
-Access Single-Cell Whole Genome Sequencing (DLP+ scWGS) data associated with this publication.
+Raw sequencing data are available from the European Genome-Phenome Archive (EGA) under accession [EGAS00001007716](https://ega-archive.org/studies/EGAS00001007716). Processed data including all single-cell copy number calls are available on [Zenodo](https://doi.org/10.5281/zenodo.13645601). Copy Number Alteration (CNA) HTML report is available on [AWS](https://lsp-public-data.s3.us-east-1.amazonaws.com/williams-2024-brca-cna/index.html).  
 
 {%
     assign overviews = site.data-cards
