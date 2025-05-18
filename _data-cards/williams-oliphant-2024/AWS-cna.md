@@ -1,5 +1,5 @@
 ---
-title: Single-Cell DNA Sequencing HTML Cohort Summary (Copy Number Alteration HTML)
+title: Single-Cell DNA Sequencing Cohort Summary (Copy Number Alteration HTML)
 image: data-cards/williams-2024-report.jpg
 date: 2024-11-24
 minerva_link:
