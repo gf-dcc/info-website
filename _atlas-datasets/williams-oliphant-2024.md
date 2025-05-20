@@ -25,13 +25,19 @@ data:
 <a href="https://ega-archive.org/studies/EGAS00001007716" class="button">EGA</a>
 
 ### Data Access
-Raw sequencing data are available from the European Genome-Phenome Archive (EGA) under accession [EGAS00001007716](https://ega-archive.org/studies/EGAS00001007716). Processed data including all single-cell copy number calls are available on [Zenodo](https://doi.org/10.5281/zenodo.13645601). Copy Number Alteration (CNA) HTML report is available on [AWS](https://lsp-public-data.s3.us-east-1.amazonaws.com/williams-2024-brca-cna/index.html).  
+
+Several levels of primary and processed data are available via the data cards below:
+
+1. A **summary report** showing basic quality control and a preliminary analysis of the data.
+2. **Processed CNA data** including all single-cell copy number calls (approximately 5 GB total).
+3. **Primary sequencing data** available from the European Genome-Phenome Archive (EGA) under accession EGAS00001007716. A Data Access Agreement between your institution and EGA will be required.
 
 {%
     assign overviews = site.data-cards
     | where_exp: "item", "item.url contains 'williams-oliphant-2024/'"
     | where_exp: "item", "item.hide != true"
     | where_exp: "item", "item.tags contains 'Overview'"
+    | sort: 'order'
 %}
 
 {% if overviews.size > 0 %}
