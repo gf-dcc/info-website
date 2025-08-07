@@ -42,6 +42,15 @@ publications_software:
     target: "_self"  # [_self|_blank]
 
 news_press:
+  - title: "Clues to catching a deadly cancer early."
+    author:
+    year: "2025"
+    publication: "Ludwig Cancer Research"
+    type: news  # [tools|publication|method|software]
+    image: "general/ludwig-2025-multimodal-spatial-profiling.jpg"
+    link: "https://www.ludwigcancerresearch.org/ludwig-link/may-2025/clues-to-catching-a-deadly-cancer-early/"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Understanding the earliest stages of ovarian cancer."
     author: "HMS News"
     year: "2025"
