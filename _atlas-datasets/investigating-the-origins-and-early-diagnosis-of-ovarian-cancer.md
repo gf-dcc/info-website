@@ -32,7 +32,10 @@ data:
   <div class="col-md-6 mb-4">
     {% include vimeo-card.html id="866120650" title="Ovarian Cancer Atlas with Dr. Ronny Drapkin and Dr. Tanjina Kader" %}
     </div>
-</div>
+  <div class="col-md-6 mb-4">
+    {% include vimeo-card.html id="1040092371" title="Complex Interplay between Genetic Mutations, DNA Damage Responses, and Immune System Interactions in Fallopian Tube Precursors" description="Serous Tubal Intraepithelial Carcinoma (STIC) with BRCA2 Mutation (LSP18251) from 'Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma'." %}
+    </div>
+  </div>
 
 ---
 ## Publications
