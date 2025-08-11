@@ -49,6 +49,14 @@ The Gray Foundation is transforming how we identify and study the earliest stage
       link="/atlas-datasets/investigating-the-origins-and-early-diagnosis-of-ovarian-cancer/"
       label="View Project"
     %}
+    {% include video-slide.html
+      id="1040092371"
+      type="vimeo"
+      title="Complex Interplay between Genetic Mutations, DNA Damage Responses, and Immune System Interactions in Fallopian Tube Precursors"
+      image="general/kader-2024-3d-stic.png"
+      link="/atlas-datasets/kader-lin-hug-2024"
+      label="Explore Publication"
+    %}
   {% include video-slider-end.html %}
   </div>
 </section>
