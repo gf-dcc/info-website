@@ -42,6 +42,15 @@ publications_software:
     target: "_self"  # [_self|_blank]
 
 news_press:
+  - title: "Advancing strategies to combat BRCA-linked cancer threats"
+    author:
+    year: "Spring 2025"
+    publication: "Pulse"
+    type: news  # [tools|publication|method|software]
+    image: "general/gray200x199.jpg"
+    link: "https://hms.harvard.edu/departments/giving/our-donors/gray-foundation-0"
+    label: News  # [Publication|Software|Method]
+    target: "_blank"  # [_self|_blank]
   - title: "Clues to catching a deadly cancer early."
     author:
     year: "2025"
