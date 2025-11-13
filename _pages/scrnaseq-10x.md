@@ -1,0 +1,44 @@
+---
+section_id: data
+layout: secondary
+permalink: /scrnaseq-10X
+title: Single Cell RNA Sequencing 10x
+assay_instrument: "Here are some details about the assay, instruments on which the samples were run, etc."
+data_access: |
+  Access the data through:
+  - GEO: FASTQ (Level 1) and BAM (Level 2)
+  - AWS: H5 (Level 3)
+  - or listed another way:
+  - Level 1: FASTQ (GEO?)
+  - Level 2: BAM (GEO)
+  - Level 3: H5 and RDS (AWS)
+
+data_visualization: "Level 3 data can be explored on the [Broad Single Cell Portal](https://urldefense.proofpoint.com/v2/url?u=https-3A__singlecell.broadinstitute.org_single-5Fcell_study_SCP2937_gray-2Dpre-2Dcancer-2Datlas-2D3prime-2Dnew-2Dcutoff2&d=DwMCAg&c=WO-RGvefibhHBZq3fL85hQ&r=cweh-od9e4IKbwBn0LquQ1bd_4ItG3qeJdojjNJCWn4&m=rzG9BjtvHyOFzPaeLT1pYfgqZDvVmCqEMVfvVOsE6NjO_GiX_wcfnaXPHPJRGzkN&s=ci83bBuiB7y6ZeSoVd2D_y-Nx99ERSjTQF-Ukhrj6_Y&e=)"
+protocol: "Link to protocol."
+samples: "60 normal breast tissue samples have currently been run and 135 samples planned."
+data_generators: "This data was generated and analyzed by teams in the labs of Joan Brugge and Henry Long."
+---
+# Single Cell RNA Sequencing 10x
+
+<a href="#about-the-data" class="button">About the Data</a>
+<a href="#data-levels" class="button">Data Levels</a>
+
+## About the Data
+{% include data-grid.html
+   assay_instrument=page.assay_instrument
+   samples=page.samples
+   data_access=page.data_access
+   data_visualization=page.data_visualization
+   protocol=page.protocol
+   data_generators=page.data_generators
+%}
+<br>
+
+### Data Levels:
+
+
+| Data Level  | Description | File Format |
+| ----- | -----------| --------- |
+| Level 1: Raw sequences | Nucleotide sequence and quality scores | FASTQ |
+| Level 2: Aligned sequences | sequencing data aligned to a reference genome | BAM |
+| Level 3: Aggregated data | QC, analysis, and exploration of single-cell RNA-seq data | H5 and RDS |
