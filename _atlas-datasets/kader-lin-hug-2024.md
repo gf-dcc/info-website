@@ -39,41 +39,13 @@ data:
     </div>
   </div>
 
-### Data Stories
-Data Stories are data visualizations that guide readers through the complexities of a large dataset through filters, search, or narrated image waypoints.
+  {%
+      assign stories = site.data-cards
+      | where_exp: "item", "item.tags contains 'ovarian'"
+      | where_exp: "item", "item.hide != true"
+  %}
 
-{%
-    assign stories = site.data-cards
-    | where_exp: "item", "item.tags contains 'ovarian'"
-    | where_exp: "item", "item.hide != true"
-%}
-
-{% assign dataCardArray = '' | split: '' %}
-{% for n in stories %}
-  {% if n.tags contains 'narrated' %}
-    {% assign dataCardArray = dataCardArray | push: n %}
-  {% endif %}
-{% endfor %}
-
-{% assign dataCardArraySort = dataCardArray | sort: 'date' | reverse %}
-{% if dataCardArraySort.size > 0 %}
-  {% include cards.html cards=dataCardArraySort %}
-{% endif %}
-
-### Curated Stories
-Curated stories provide access to images that have undergone a quality control step to remove failed markers, ensure appropriate channel intensity settings, and provide metadata about the underlying sample and image. Click the Minerva story icon for an interactive view of the full-resolution images.
-
-{%
-    assign overviews = site.data-cards
-    | where_exp: "item", "item.url contains 'kader-lin-hug-2024/'"
-    | where_exp: "item", "item.hide != true"
-    | where_exp: "item", "item.tags contains 'curated'"
-%}
-
-{% if overviews.size > 0 %}
-  {% include cards.html cards=overviews %}
-{% endif %}
-
+{% include minerva-story-sorting-pubs.md %}
 
 ## Data Access
 
