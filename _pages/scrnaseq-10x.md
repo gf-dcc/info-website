@@ -1,7 +1,7 @@
 ---
 section_id: data
 layout: secondary
-permalink: /scrnaseq-10X
+permalink: /scrnaseq-10x
 title: Single Cell RNA Sequencing 10x
 assay_instrument: "Here are some details about the assay, instruments on which the samples were run, etc."
 data_access: |
