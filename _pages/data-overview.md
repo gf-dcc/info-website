@@ -17,7 +17,7 @@ We are committed to making Gray BRCA Atlas data available to the scientific comm
 
 The Gray BRCA Precancer Atlas is currently comprised of the following data types:
 
-| Assay  | Data Type | Atlas | Primary Lab | Data Access | Visualization Tool(s) |
+| Assay  | Data Type | Atlas | Primary Lab | Data Access | Visualization Tools |
 | ----- | -----------| --------- |--------- |--------- |--------- |
 | High depth targeted DNA sequencing | DNA Sequencing | [Breast](/atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers/) | Nathanson | [EGA](https://ega-archive.org/studies/EGAS00001007716) and AWS<sup>[1](#aws-ref)</sup> | TBD |
 | Single Cell RNA Sequencing 10X 3' scRNA seq | Sequencing | [Breast](/atlas-datasets/devising-new-strategies-to-track-and-prevent-breast-cancer-development-in-brca-mutation-carriers/) | Nathanson, Long | GEO<sup>[2](#geo-ref)</sup> | TBD |
