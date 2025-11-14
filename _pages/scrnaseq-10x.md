@@ -37,8 +37,8 @@ data_generators: "This data was generated and analyzed by teams in the labs of J
 ### Data Levels:
 
 
-| Data Level  | Description | File Format |
-| ----- | -----------| --------- |
-| Level 1: Raw sequences | Nucleotide sequence and quality scores | FASTQ |
-| Level 2: Aligned sequences | sequencing data aligned to a reference genome | BAM |
-| Level 3: Aggregated data | QC, analysis, and exploration of single-cell RNA-seq data | H5 and RDS |
+| Data Level  | Description | File Format | Data Access |
+| ----- | -----------| --------- | --------- |
+| Level 1: Raw sequences | Nucleotide sequence and quality scores | FASTQ | TBD |
+| Level 2: Aligned sequences | sequencing data aligned to a reference genome | BAM | GEO |
+| Level 3: Aggregated data | QC, analysis, and exploration of single-cell RNA-seq data | H5 and RDS | AWS |
