@@ -1,6 +1,6 @@
 ---
 title: CyCIF
-permalink: /cycif
+permalink: /cycif/
 
 section_id: data
 layout: secondary
