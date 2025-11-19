@@ -1,7 +1,7 @@
 ---
 section_id: data
 layout: secondary
-permalink: /scrnaseq-10x/
+permalink: /flex-scrnaseq/
 title: FLEX Single Cell RNA Sequencing 10x
 assay_instrument: "Here are some details about the assay, instruments on which the samples were run, etc."
 data_access: |
@@ -22,6 +22,11 @@ data_generators: "This data was generated and analyzed by teams in the labs of J
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
+<a href="#data-visualization" class="button">Data Visualization</a>
+
+This dataset consists of 60 normal breast tissues from reduction mammoplasties or prophylactic mastectomies conducted at Harvard/DFCI, MGH and UPenn. The tissues were dissociated to single cells using a protocol optimized by the Brugge lab that improves yield of breast epithelial cells compared to previous protocols. The samples were sequenced by the DFCI Center for Functional Cancer Epigenetics Core using the FLEX protocol for 10X scRNAseq where cells can be fixed and stored to run in batches of 8 or 16 samples at a time. This protocol greatly improves transcript detection and cell capture rate while reducing batch effects and improving the logistics of our workflow. The resultant dataset is extremely high quality, with impressive uniformity in cluster representation across all the samples, which is not the case for existing large breast datasets published to date.
+
+Sequencing of additional samples is ongoing and this dataset will be updated in batches as more samples are completed. Our goal is to sequence 135 samples that are matched by genotype, age, parity and menopause status. This dataset currently consists of all cell types (epithelial lineages, immune cells, and stromal cells). We plan to generate a separate dataset consisting of all the epithelial cells and their subtypes. This work is ongoing.
 
 ## About the Data
 {% include data-grid.html
@@ -42,3 +47,20 @@ data_generators: "This data was generated and analyzed by teams in the labs of J
 | Level 1: Raw sequences | Nucleotide sequence and quality scores | FASTQ | TBD |
 | Level 2: Aligned sequences | sequencing data aligned to a reference genome | BAM | GEO |
 | Level 3: Aggregated data | QC, analysis, and exploration of single-cell RNA-seq data | H5 and RDS | AWS |
+
+
+<br>
+
+## Data Visualization
+Below are private links to data visualizations accessible by members of the Gray BRCA Atlas Team.
+{%
+    assign overviews = site.data-cards
+    | where_exp: "item", "item.url contains 'breast-atlas-unpublished'"
+    | where_exp: "item", "item.hide != true"
+    | where_exp: "item", "item.tags contains 'Overview'"
+    | where_exp: "item", "item.tags contains 'FLEX'"
+%}
+
+{% if overviews.size > 0 %}
+  {% include cards.html cards=overviews %}
+{% endif %}
