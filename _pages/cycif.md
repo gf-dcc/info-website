@@ -21,8 +21,6 @@ samples: "50-100 breast samples and 30-50 ovarian samples will be imaged with Cy
 
 # Cyclic Immunofluorescence (CyCIF) Multiplexed Imaging
 
-We are committed to making our spatial profiling data available to the scientific community. Here you will find information describing the various imaging data types and how they are collected, analyzed, and shared.
-<br>
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#public-access-to-primary-data" class="button">Primary Data Access</a>
 <a href="#about-minerva-viewing-image-data-online" class="button">Minerva: Viewing Data Online</a>
