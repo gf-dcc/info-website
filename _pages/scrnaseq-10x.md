@@ -2,23 +2,23 @@
 section_id: data
 layout: secondary
 permalink: /scrnaseq-10x/
-title: Single Cell RNA Sequencing 10x
+title: FLEX Single Cell RNA Sequencing 10x
 assay_instrument: "Here are some details about the assay, instruments on which the samples were run, etc."
 data_access: |
   Access the data through:
   - GEO: FASTQ (Level 1) and BAM (Level 2)
   - AWS: H5 (Level 3)
   - or listed another way:
-  - Level 1: FASTQ (GEO?)
+  - Level 1: FASTQ (GEO/TBD)
   - Level 2: BAM (GEO)
   - Level 3: H5 and RDS (AWS)
 
 data_visualization: "Level 3 data can be explored on the [Broad Single Cell Portal](https://urldefense.proofpoint.com/v2/url?u=https-3A__singlecell.broadinstitute.org_single-5Fcell_study_SCP2937_gray-2Dpre-2Dcancer-2Datlas-2D3prime-2Dnew-2Dcutoff2&d=DwMCAg&c=WO-RGvefibhHBZq3fL85hQ&r=cweh-od9e4IKbwBn0LquQ1bd_4ItG3qeJdojjNJCWn4&m=rzG9BjtvHyOFzPaeLT1pYfgqZDvVmCqEMVfvVOsE6NjO_GiX_wcfnaXPHPJRGzkN&s=ci83bBuiB7y6ZeSoVd2D_y-Nx99ERSjTQF-Ukhrj6_Y&e=)"
-protocol: "Link to protocol."
+protocol: "Link to protocol. Could also link to dissociation method protocol, etc."
 samples: "60 normal breast tissue samples have currently been run and 135 samples planned."
 data_generators: "This data was generated and analyzed by teams in the labs of Joan Brugge and Henry Long."
 ---
-# Single Cell RNA Sequencing 10x
+# FLEX Single Cell RNA Sequencing 10x
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>

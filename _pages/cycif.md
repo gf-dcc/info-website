@@ -67,25 +67,30 @@ As there is no funding-agnostic public repository available to accept whole slid
 
 Accessing terabyte-size full-resolution image data is impractically burdensome for browsing a large dataset, so we have developed a specialized browsing tool, [Minerva](https://www.minerva.im/), to enable panning and zooming across large images using a standard web browser.
 
-[Minerva](https://www.minerva.im/) is a suite of software tools for visualizing, annotating, and sharing high-plex tissue images in a browser with an accompanying [narration](https://www.nature.com/articles/s41551-021-00789-8). Minerva makes it possible to interact with large, whole-slide images without downloading any data or installing any software. Minerva can also be used to share image annotations and display additional types of data visualizations. Nearly all Harvard Tissue Atlas data are available as one of three types of Minerva-based visualizations, described below.
+[Minerva](https://www.minerva.im/) is a suite of software tools for visualizing, annotating, and sharing high-plex tissue images in a browser with an accompanying [narration](https://www.nature.com/articles/s41551-021-00789-8). Minerva makes it possible to interact with large, whole-slide images without downloading any data or installing any software. Minerva can also be used to share image annotations and display additional types of data visualizations.
 <br>
 
 ### Narrated Minerva Stories
 {% include narrated-minerva-description.md %}
-{%
-    assign stories = site.data-cards
-    | where_exp: "item", "item.hide != true"
-%}
+{%- assign overviews = "" | split: "" -%}
 
-{% assign dataCardArray = '' | split: '' %}
-{% for s in stories %}
-  {% if s.tags contains 'Overview' %}
-    {% assign dataCardArray = dataCardArray | push: s %}
-  {% endif %}
-{% endfor %}
+{%- for item in site.data-cards -%}
+  {%- if
+      item.url contains "gray-rosenbluth-selfers-2022/" or
+      item.url contains "kader-lin-hug-2024/" or
+      item.url contains "kader-drapkin-ovarian-pilot/"
+    -%}
+    {%- if item.hide != true and
+          item.tags contains "Overview" and
+          item.tags contains "CyCIF"
+    -%}
+      {%- assign overviews = overviews | push: item -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
 
-{% if dataCardArray.size > 0 %}
-  {% include cards.html cards=dataCardArray %}
+{% if overviews.size > 0 %}
+  {% include cards.html cards=overviews %}
 {% endif %}
 
 ### Curated Minerva Stories
@@ -106,13 +111,6 @@ Accessing terabyte-size full-resolution image data is impractically burdensome f
 {% if dataCardArray.size > 0 %}
   {% include cards.html cards=dataCardArray %}
 {% endif %}
-
-### Automated Minerva Stories
-Automated Minerva stories provide a single, minimally-processed ([Level 2 or 3](/data-standards#data-levels)) whole slide image with no annotation or analysis. Automated stories provide online viewing access to largely unprocessed image data. These stories can be made automatically as part of the [MCMICRO](https://mcmicro.org/) pipeline.
-
-  <a href="/data-explorations" class="arrow-button">Explore image data</a>
-
-<br>
 
 ---
 
