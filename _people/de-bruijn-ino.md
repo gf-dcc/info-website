@@ -1,5 +1,5 @@
 ---
-name: Ino de Bruijn, MSc
+name: Ino de Bruijn, PhD
 positions:
   - Bioinformatics Software Engineer, Memorial Sloan Kettering
 
