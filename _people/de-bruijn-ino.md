@@ -1,7 +1,7 @@
 ---
 name: Ino de Bruijn, PhD
 positions:
-  - Bioinformatics Software Engineer, Memorial Sloan Kettering
+  - Data Visualization Team Lead, Cancer Data Science Initiative, Memorial Sloan Kettering
 
 associations:
   - "For questions regarding data portal, bioinformatics & technical issues:"
