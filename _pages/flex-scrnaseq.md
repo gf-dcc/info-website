@@ -14,7 +14,7 @@ data_access: |
 
   For a description of the files see the [table below](#data-levels).
 data_visualization: "At this time, Level 3 data can be explored on the Broad Single Cell Portal by members of the Gray BRCA Atlas team."
-protocol: "Information forthcoming"
+protocol: "FLEX single cell RNA sequencing 10X involves dissociating tissue into single cells and sequencing using the FLEX protocol for 10X scRNAseq where cells can be fixed and stored to run in batches of 8 or 16 samples at a time. This protocol greatly improves transcript detection and cell capture rate while reducing batch effects."
 samples: |
   60 normal breast tissue samples from reduction mammoplasties or prophylactic mastectomies have been run so far. Our goal is to sequence 135 samples that are matched by genotype, age, parity and menopause status.
 data_generators: "This data was generated and analyzed by teams in the labs of Joan Brugge and Henry Long."
@@ -24,8 +24,6 @@ data_generators: "This data was generated and analyzed by teams in the labs of J
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
 <a href="#data-visualization" class="button">Data Visualization</a>
-
-FLEX single cell RNA sequencing 10X involves dissociating tissue into single cells and sequencing using the FLEX protocol for 10X scRNAseq where cells can be fixed and stored to run in batches of 8 or 16 samples at a time. This protocol greatly improves transcript detection and cell capture rate while reducing batch effects.
 
 ## About the Data
 {% include data-grid.html

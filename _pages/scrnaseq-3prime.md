@@ -5,7 +5,7 @@ title: Single Cell RNA Sequencing 10x 3'
 section_id: data
 layout: secondary
 
-instrument: "Information forthcoming"
+instrument: "10x Chromium Controller following the 10x 3' GEM-X protocol"
 data_access: |
   Access the data through:
   - Level 1: FASTQ (By request with DUA)
@@ -16,7 +16,13 @@ data_access: |
 data_visualization: |
   Level 3 data can currently be explored on the Broad Single Cell Portal by members of the Gray BRCA Atlas Team.
 
-protocol: "The tissues were dissociated to single cells using the Nathanson lab protocol which robustly captures immune cells."
+protocol: |
+  Fresh tissue is collected from pathology and preserved using MACS media. Tissue is minced down and dissociated in the lab to a single cell suspension in freezing media (90% FBS + 10% DMSO) using the [Miltenyi Biotec human dissociation kit](https://static.miltenyibiotec.com/asset/150655405641/document_ssa8l7cr6d21fal1g90clnaq48?content-disposition=inline) and then stored at -80C. Samples are later thawed, washed, filtered and counted before being run on the 10x Chromium Controller following the 10x 3' GEM-X protocol.
+
+  [Cell Preparation for Single Cell Protocols](https://assets.10xgenomics.com/m/7122b03c55bc48ca/original/CG00053_Handbook_CellPreparation_SingleCellProtocols.pdf)
+
+  [Chromium GEM-X Single Cell Reagent Kits](https://cdn.10xgenomics.com/image/upload/v1725314293/support-documents/CG000731_ChromiumGEM-X_SingleCell3v4_UserGuide_RevB.pdf)
+
 samples: |
   The following are planned to be sequenced:
   - 45-56 breast samples from reduction mammoplasties or prophylactic mastectomies

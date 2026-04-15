@@ -13,7 +13,9 @@ data_access: |
   For a description of the files see the [table below](#data-levels).
 
 data_visualization: "Level 3 data can currently be explored on the [Broad Single Cell Portal](https://urldefense.proofpoint.com/v2/url?u=https-3A__singlecell.broadinstitute.org_single-5Fcell_study_SCP2937_gray-2Dpre-2Dcancer-2Datlas-2D3prime-2Dnew-2Dcutoff2&d=DwMCAg&c=WO-RGvefibhHBZq3fL85hQ&r=cweh-od9e4IKbwBn0LquQ1bd_4ItG3qeJdojjNJCWn4&m=rzG9BjtvHyOFzPaeLT1pYfgqZDvVmCqEMVfvVOsE6NjO_GiX_wcfnaXPHPJRGzkN&s=ci83bBuiB7y6ZeSoVd2D_y-Nx99ERSjTQF-Ukhrj6_Y&e=) by members of the Gray BRCA Atlas Team"
-protocol: "The tissues were bulk sequenced by the Nathanson lab using a custom panel of 149 genes commonly altered in breast cancer. The list was curated from existing clinical panels and literature reviews."
+protocol: |
+  DNA is extracted from fresh tissue using the [Qiagen DNeasy Blood and Tissue kit](https://www.qiagen.com/en-us/resources/download/kithandbook/hb-2061-004-hb-dny-blood-tissue-0623-ww). DNA libraries are completed using IDT [xGen library prep kits](https://sfvideo.blob.core.windows.net/sitefinity/docs/default-source/protocol/xgen-dna-library-prep-ez-kit-and-xgen-dna-library-prep-ez-uni-kits-protocol.pdf?sfvrsn=57b1e007_14) and [hybridized](https://sfvideo.blob.core.windows.net/sitefinity/docs/default-source/protocol/xgen-hyb-and-wash-reagents-v3-kit-protocol.pdf?sfvrsn=4ff0ca07_6) (10-plexed) overnight to a custom IDT 149-gene panel. The samples are then sequenced with a targeted mean depth of 2,000x.
+
 samples: |
   The following have been sequenced:
   - 118 samples from 116 individuals
@@ -22,6 +24,8 @@ instrument: "Information forthcoming"
 data_generators: "This data was generated and analyzed by a team in the lab of Kate Nathanson."
 ---
 # High depth targeted DNA sequencing
+
+The tissues were bulk sequenced by the Nathanson lab using a custom panel of 149 genes commonly altered in breast cancer. The list was curated from existing clinical panels and literature reviews.
 
 <a href="#about-the-data" class="button">About the Data</a>
 <a href="#data-levels" class="button">Data Levels</a>
@@ -39,7 +43,6 @@ data_generators: "This data was generated and analyzed by a team in the lab of K
 <br>
 
 ### Data Levels:
-
 
 | Data Level  | Description | File Format | File Size (per file)| Data Access |
 | ----- | -----------| --------- | --------- | --------- |
