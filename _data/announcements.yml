@@ -1,4 +1,12 @@
 publications_software:
+  - title: 'Spatial integration of protein and chromosomal states reveals early copy number changes and genotype-associated immune neighborhoods in serous ovarian cancer evolutio.'
+    author: 'Kader et al.'
+    year: 2026
+    publication: "Cancer Discovery"
+    link: https://doi.org/10.1158/2159-8290.CD-26-0171
+    label: Publication
+    target: "_blank"
+    image: publications/kader-cancer-discover-2026.png
   - title: "Multimodal spatial profiling reveals immune suppression and microenvironment remodeling in fallopian tube precursors to high-grade serous ovarian carcinoma."
     author: "Kader et al"
     year: 2024
@@ -31,15 +39,6 @@ publications_software:
     link: "https://doi.org/10.1038/s41588-024-01958-6"
     label: Publication  # [Publication|Software|Method]
     target: "_blank"  # [_self|_blank]
-  - title: 'H2Bub1 loss is an early contributor to clear cell ovarian cancer progression.'
-    author: "Ferrari et al"
-    year: 2023
-    publication: JCI Insight
-    contributors: 'Ferrari AJ, Rawat P, Rendulich HS, Annapragada AV, Kinose Y, Zhang X, Devins K, Budina A, Scharpf RB, Mitchell MA, Tanyi JL, Morgan MA, Schwartz LE, Soong TR, Velculescu VE, Drapkin R.'
-    image: publications/H2Bub1-loss-clear-cell-ovarian-cancer-progression.jpg
-    link: https://insight.jci.org/articles/view/164995
-    label: Publication  # [Publication|Software|Method]
-    target: "_self"  # [_self|_blank]
 
 news_press:
   - title: "Advancing strategies to combat BRCA-linked cancer threats"
