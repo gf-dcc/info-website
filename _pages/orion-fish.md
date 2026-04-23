@@ -26,7 +26,7 @@ data_visualization: |
 
 protocol: |
   Learn about the ORION-FISH method by reading:
-  - forthcoming
+  - Kader T, Chen Y-A, Hug CB, et al. Cancer Discovery (2026). DOI:[https://doi.org/10.1158/2159-8290.CD-26-0171](10.1158/2159-8290.CD-26-0171)
 
 samples: |
   The following have been imaged with ORION-FISH:
@@ -53,6 +53,7 @@ ORION-FISH is developed using the [ORION platform]({{ "/orion" | relative_url }}
    data_generators=page.data_generators
 %}
 <br>
+
 ---
 ### Data Levels:
 
@@ -62,3 +63,7 @@ ORION-FISH is developed using the [ORION platform]({{ "/orion" | relative_url }}
 | High-plex image data (Level 2)| Quality controlled images are assembled into a high-plex whole slide image using the [MCMICRO](https://mcmicro.org/) analysis pipeline | OME-TIFF | 100 GB | AWS |
 | Segmentation masks (Level 3) | Cell segmentation identifies and separates cell, nucleus, cytoplasm and other regions  | OME-TIFF | 0.5 GB | AWS |
 | Single-cell spatial feature tables (Level 4) | Summarize the expression of marker intensities and morphological features for each cell | csv | 1 GB | AWS |
+
+---
+### ORION-FISH Workflow
+{% include enlarge-image.html src='publications/orion-fish-workflow.png' float='center' alt='ORION-FISH Workflow single-section integration of protein states and DNA copy number. 1) Protein, 2) Photo-bleaching, 3) DNA-FISH, 4) Analysis' %}
